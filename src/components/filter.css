@@ -1,0 +1,54 @@
+.filter {
+	margin-bottom: 20px;
+}
+
+.filter button {
+	margin: 5px;
+	padding: 10px 20px;
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.filter button.active {
+	background-color: #333;
+	color: #fff;
+}
+
+.filter button:hover {
+	background-color: #e0e0e0;
+}
+
+.checkbox-container {
+	display: inline-block;
+	margin: 5px;
+	padding: 10px 20px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	background-color: #f0f0f0; /* Light color when not selected */
+	color: #000;
+}
+
+.checkbox-container.checked {
+	background-color: #333; /* Dark color when selected */
+	color: #fff;
+}
+
+.filter label {
+	display: inline-block;
+	margin: 5px;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.filter input[type="checkbox"] {
+	display: none;
+}
+
+.filter input[type="checkbox"]:checked + label {
+	background-color: #777;
+	color: #fff;
+}

@@ -1,0 +1,112 @@
+.item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+.item-left {
+	display: flex;
+	align-items: center;
+	width: 50%; /* Ensure consistent width */
+	margin-right: 10px;
+}
+
+.item-right {
+	display: flex;
+	flex-direction: column;
+	width: 50%; /* Ensure consistent width */
+}
+
+.item input[type="checkbox"] {
+	margin-right: 20px;
+	margin-left: 5px;
+	transform: scale(3); /* Makes the checkbox twice its current size */
+	cursor: pointer;
+}
+
+.item label {
+	flex: 1.5; /* Adjust size as needed */
+}
+
+.item .item-link-icon {
+	margin-right: 10px;
+}
+
+.item .item-image {
+	width: 80px; /* Adjust size as needed to make the images larger */
+	height: auto;
+	margin-right: 10px;
+}
+
+.item .item-text {
+	flex: 6; /* Reduce space to fit better with set pieces */
+	font-size: 0.9em;
+	margin-left: 10px;
+}
+
+.item-pieces {
+	display: flex;
+	flex-direction: column;
+	width: 100%; /* Ensure set pieces take up the full space of the right column */
+}
+
+.item-piece {
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+}
+
+.item-piece input[type="checkbox"] {
+	margin-right: 15px;
+	transform: scale(2.5);
+}
+
+.item-piece label {
+	flex: 1; /* Adjust size as needed */
+}
+
+.item-piece .item-link-icon {
+	margin-right: 5px;
+}
+
+.item-piece .item-image {
+	width: 30px; /* Adjust size as needed */
+	height: auto;
+	margin-right: 5px;
+}
+
+.item-piece .item-text {
+	flex: 4;
+	font-size: 0.8em;
+	margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+	.item {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.item-left,
+	.item-right,
+	.item-piece {
+		width: 100%;
+	}
+
+	.item-right {
+		margin-top: 10px;
+	}
+
+	.item-piece {
+		display: block;
+	}
+
+	.item input[type="checkbox"] {
+		margin-right: 35px;
+		margin-left: 15px;
+		transform: scale(2); /* Makes the checkbox twice its current size */
+		cursor: pointer;
+	}
+}
