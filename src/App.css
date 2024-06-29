@@ -29,7 +29,7 @@
     margin-left: 5px;
     transform: scale(3); /* Makes the checkbox twice its current size */
     cursor: pointer;
-  }
+  }  
   
   .item label {
     flex: 1.5; /* Adjust size as needed */
@@ -161,4 +161,34 @@
     display: block; /* Show when the user scrolls down */
   }
   
+  
+
+    
+  @media (max-width: 768px) {
+    .item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .item-left,
+    .item-right,
+    .item-piece {
+      width: 100%;
+    }
+  
+    .item-right {
+      margin-top: 10px;
+    }
+
+    .item-piece {
+        display: block;
+    }
+
+    .item input[type="checkbox"] {
+        margin-right: 35px;
+        margin-left: 15px;
+        transform: scale(2); /* Makes the checkbox twice its current size */
+        cursor: pointer;
+      }
+  }
   
