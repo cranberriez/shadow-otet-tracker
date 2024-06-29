@@ -1,0 +1,1426 @@
+[
+    {
+        "category": "Armor",
+        "name": "Black Knight Set",
+        "url": "https://eldenring.wiki.fextralife.com/Black+Knight+Set",
+        "location_text": "Dropped by Black Knights",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Black Knight Helm",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Black+Knight+Helm",
+                "image": "/file/Elden-Ring/black_knight_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 1.1
+            },
+            {
+                "piece_name": "Black Knight Armor",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Black+Knight+Armor",
+                "image": "/file/Elden-Ring/black_knight_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 1.2
+            },
+            {
+                "piece_name": "Black Knight Gauntlets",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Black+Knight+Gauntlets",
+                "image": "/file/Elden-Ring/black_knight_gauntlets_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 1.3
+            },
+            {
+                "piece_name": "Black Knight Greaves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Black+Knight+Greaves",
+                "image": "/file/Elden-Ring/black_knight_greaves_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 1.4
+            }
+        ],
+        "image": "/file/Elden-Ring/black-knight-set-sote-elden-ring-wiki-guide.png",
+        "id": 1.0,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Hornsent Set",
+        "url": "https://eldenring.wiki.fextralife.com/Hornsent+Set",
+        "location_text": "Dropped by Hornsent after defeating Miquella's Companions",
+        "spoiler": true,
+        "pieces": [
+            {
+                "piece_name": "Caterpillar Mask",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Caterpillar+Mask",
+                "image": "/file/Elden-Ring/caterpillar_mask_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 3.1
+            },
+            {
+                "piece_name": "Braided Cord Robe",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Braided+Cord+Robe",
+                "image": "/file/Elden-Ring/braided_cord_robe_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 3.2
+            },
+            {
+                "piece_name": "Braided Arm Wraps",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Braided+Arm+Wraps",
+                "image": "/file/Elden-Ring/braided_arm_wraps_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 3.3
+            }
+        ],
+        "image": "/file/Elden-Ring/hornsent-set-sote-elden-ring-wiki-guide-removebg-preview.png",
+        "id": 3,
+        "set_completion": 3
+    },
+    {
+        "category": "Armor",
+        "name": "Circlet of Light",
+        "url": "https://eldenring.wiki.fextralife.com/Circlet+of+Light",
+        "location_text": "On the ground after defeating the final boss",
+        "spoiler": true,
+        "pieces": [],
+        "image": "/file/Elden-Ring/circlet_of_light_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 5
+    },
+    {
+        "category": "Armor",
+        "name": "Common Soldier Set",
+        "url": "https://eldenring.wiki.fextralife.com/Common+Soldier+Set",
+        "location_text": "Droped from Common Soldiers in Castle Ensis",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Common Soldier Helm",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Common+Soldier+Helm",
+                "image": "/file/Elden-Ring/common_soldier_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 6.1
+            },
+            {
+                "piece_name": "Common Soldier Cloth Armor",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Common+Soldier+Cloth+Armor",
+                "image": "/file/Elden-Ring/common_soldier_cloth_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 6.2
+            },
+            {
+                "piece_name": "Common Soldier Gauntlets",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Common+Soldier+Gauntlets",
+                "image": "/file/Elden-Ring/common_soldier_gauntlets_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 6.3
+            },
+            {
+                "piece_name": "Common Soldier Greaves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Common+Soldier+Greaves",
+                "image": "/file/Elden-Ring/common_soldier_greaves_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 6.4
+            }
+        ],
+        "image": "/file/Elden-Ring/common-soldier-set-sote-elden-ring-wiki-guide.png",
+        "id": 6,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Crucible Hammer-Helm",
+        "url": "https://eldenring.wiki.fextralife.com/Crucible+Hammer-Helm",
+        "location_text": "Dropped from Crusible Knight Devonia",
+        "spoiler": false,
+        "pieces": [],
+        "image": "/file/Elden-Ring/crucible_hammer-helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 8
+    },
+    {
+        "category": "Armor",
+        "name": "Ascetic's Set",
+        "url": "https://eldenring.wiki.fextralife.com/Ascetic's+Set",
+        "location_text": "Dropped from Curseblade enemies",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Curseblade Mask",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Curseblade+Mask",
+                "image": "/file/Elden-Ring/curseblade_mask_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 9.1
+            },
+            {
+                "piece_name": "Ascetic's Loincloth",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Ascetic's+Loincloth",
+                "image": "/file/Elden-Ring/ascetics_loincloth_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 9.2
+            },
+            {
+                "piece_name": "Ascetic's Wrist Guards",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Ascetic's+Wrist+Guards",
+                "image": "/file/Elden-Ring/ascetics_wrist_guards_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 9.3
+            },
+            {
+                "piece_name": "Ascetic's Ankle Guards",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Ascetic's+Ankle+Guards",
+                "image": "/file/Elden-Ring/ascetics_ankle_guards_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 9.4
+            }
+        ],
+        "image": "/file/Elden-Ring/ascetic-set-sote-elden-ring-wiki-guide-removebg-preview.png",
+        "id": 9,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Dancer's Set",
+        "url": "https://eldenring.wiki.fextralife.com/Dancer's+Set",
+        "location_text": "Dropped by Dancer of Ranah",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Dancer's Hood",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Dancer's+Hood",
+                "image": "/file/Elden-Ring/dancers_hood_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 11.1
+            },
+            {
+                "piece_name": "Dancer's Dress",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Dancer's+Dress",
+                "image": "/file/Elden-Ring/dancers_dress_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 11.2
+            },
+            {
+                "piece_name": "Dancer's Bracer",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Dancer's+Bracer",
+                "image": "/file/Elden-Ring/dancers_bracer_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 11.3
+            },
+            {
+                "piece_name": "Dancer's Trousers",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Dancer's+Trousers",
+                "image": "/file/Elden-Ring/dancers_trousers_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 11.4
+            }
+        ],
+        "image": "/file/Elden-Ring/dancer-set-sote-elden-ring-wiki-guide.png",
+        "id": 11,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Dane's Set",
+        "url": "https://eldenring.wiki.fextralife.com/Dane's+Set",
+        "location_text": "Found under a waterfall under Bonny Village",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Dane's Hat",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Dane's+Hat",
+                "image": "/file/Elden-Ring/danes_hat_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 13.1
+            },
+            {
+                "piece_name": "Dryleaf Robe",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Dryleaf+Robe",
+                "image": "/file/Elden-Ring/dryleaf_robe_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 13.2
+            },
+            {
+                "piece_name": "Dryleaf Arm Wraps",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Dryleaf+Arm+Wraps",
+                "image": "/file/Elden-Ring/dryleaf_arm_wraps_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 13.3
+            },
+            {
+                "piece_name": "Dryleaf Cuissardes",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Dryleaf+Cuissardes",
+                "image": "/file/Elden-Ring/dryleaf_cuissardes_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 13.4
+            }
+        ],
+        "image": "/file/Elden-Ring/danes-set-sote-elden-ring-wiki-guide-removebg-preview.png",
+        "id": 13,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Death Knight Set",
+        "url": "https://eldenring.wiki.fextralife.com/Death+Knight+Set",
+        "location_text": "Found on corpse in Darklight Catacombs",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Death Knight Helm",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Death+Knight+Helm",
+                "image": "/file/Elden-Ring/death_knight_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 15.1
+            },
+            {
+                "piece_name": "Death Knight Armor",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Death+Knight+Armor",
+                "image": "/file/Elden-Ring/death_knight_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 15.2
+            },
+            {
+                "piece_name": "Death Knight Gauntlets",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Death+Knight+Gauntlets",
+                "image": "/file/Elden-Ring/death_knight_gauntlets_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 15.3
+            },
+            {
+                "piece_name": "Death Knight Greaves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Death+Knight+Greaves",
+                "image": "/file/Elden-Ring/death_knight_greaves_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 15.4
+            }
+        ],
+        "image": "/file/Elden-Ring/death-knight-set-sote-elden-ring-wiki-guide.png",
+        "id": 15,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Death Mask Helm",
+        "url": "https://eldenring.wiki.fextralife.com/Death+Mask+Helm",
+        "location_text": "Drops from a Fire Knight in the Cathedral section of Shadow Keep after draining the water",
+        "spoiler": false,
+        "pieces": [],
+        "image": "/file/Elden-Ring/death_mask_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 17
+    },
+    {
+        "category": "Armor",
+        "name": "Divine Beast Head",
+        "url": "https://eldenring.wiki.fextralife.com/Divine+Beast+Head",
+        "location_text": "Found after defeating Divine Beast Dancing Lion",
+        "spoiler": false,
+        "pieces": [],
+        "image": "/file/Elden-Ring/divine_beast_head_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 18
+    },
+    {
+        "category": "Armor",
+        "name": "Divine Beast Set",
+        "url": "https://eldenring.wiki.fextralife.com/Divine+Beast+Set",
+        "location_text": "Dropped by Divine Beast Warriors",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Divine Beast Helm",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Divine+Beast+Helm",
+                "image": "/file/Elden-Ring/divine_beast_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 19.1
+            },
+            {
+                "piece_name": "Divine Beast Warrior Armor",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Divine+Beast+Warrior+Armor",
+                "image": "/file/Elden-Ring/divine_beast_warrior_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 19.2
+            }
+        ],
+        "image": "/file/Elden-Ring/divine-beast-set-sote-elden-ring-wiki-guide.png",
+        "id": 19,
+        "set_completion": 2
+    },
+    {
+        "category": "Armor",
+        "name": "Divine Bird Set",
+        "url": "https://eldenring.wiki.fextralife.com/Divine+Bird+Set",
+        "location_text": "Droppped by Divine Bird enemies",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Divine Bird Helm",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Divine+Bird+Helm",
+                "image": "/file/Elden-Ring/divine_bird_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 21.1
+            },
+            {
+                "piece_name": "Divine Bird Warrior Armor",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Divine+Bird+Warrior+Armor",
+                "image": "/file/Elden-Ring/divine_bird_warrior_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 21.2
+            },
+            {
+                "piece_name": "Divine Bird Warrior Gauntlets",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Divine+Bird+Warrior+Gauntlets",
+                "image": "/file/Elden-Ring/divine_bird_warrior_gauntlets_gauntlets_shadow_of_the_erdtree_wiki_guide_200px.png",
+                "id": 21.3
+            },
+            {
+                "piece_name": "Divine Bird Warrior Greaves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Divine+Bird+Warrior+Greaves",
+                "image": "/file/Elden-Ring/divine_bird_warrior_greaves_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 21.4
+            }
+        ],
+        "image": "/file/Elden-Ring/divine-bird-set-sote-elden-ring-wiki-guide.png",
+        "id": 21,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Iron Rivet Set",
+        "url": "https://eldenring.wiki.fextralife.com/Iron+Rivet+Set",
+        "location_text": "Dropped by Red Bear",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Fang Helm",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Fang+Helm",
+                "image": "/file/Elden-Ring/fang_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 23.1
+            },
+            {
+                "piece_name": "Iron Rivet Armor",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Iron+Rivet+Armor",
+                "image": "/file/Elden-Ring/iron_rivet_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 23.2
+            },
+            {
+                "piece_name": "Iron Rivet Gauntlets",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Iron+Rivet+Gauntlets",
+                "image": "/file/Elden-Ring/iron_rivet_gauntlets_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 23.3
+            },
+            {
+                "piece_name": "Iron Rivet Greaves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Iron+Rivet+Greaves",
+                "image": "/file/Elden-Ring/iron_rivet_greaves_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 23.4
+            }
+        ],
+        "image": "/file/Elden-Ring/iron-rivet-set-sote-elden-ring-wiki-guide.png",
+        "id": 23,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Pelt of Ralva",
+        "url": "https://eldenring.wiki.fextralife.com/Pelt+of+Ralva",
+        "location_text": "Dropped by Ralva the Great Re Bear",
+        "spoiler": false,
+        "pieces": [],
+        "image": "/file/Elden-Ring/pelt_of_ralva_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 25
+    },
+    {
+        "category": "Armor",
+        "name": "Fire Knight Set",
+        "url": "https://eldenring.wiki.fextralife.com/Fire+Knight+Set",
+        "location_text": "Dropped from Fire Knights",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Fire Knight Helm",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Fire+Knight+Helm",
+                "image": "/file/Elden-Ring/fire_knight_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 26.1
+            },
+            {
+                "piece_name": "Fire Knight Armor",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Fire+Knight+Armor",
+                "image": "/file/Elden-Ring/fire_knight_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 26.2
+            },
+            {
+                "piece_name": "Fire Knight Gauntlets",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Fire+Knight+Gauntlets",
+                "image": "/file/Elden-Ring/fire_knight_gauntlets_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 26.3
+            },
+            {
+                "piece_name": "Fire Knight Greaves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Fire+Knight+Greaves",
+                "image": "/file/Elden-Ring/fire_knight_greaves_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 26.4
+            }
+        ],
+        "image": "/file/Elden-Ring/fire-knight-set-sote-elden-ring-wiki-guide.png",
+        "id": 26,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Freyja's Set",
+        "url": "https://eldenring.wiki.fextralife.com/Freyja's+Set",
+        "location_text": "Found in Shadow Keep after Freyja leaves",
+        "spoiler": true,
+        "pieces": [
+            {
+                "piece_name": "Freyja's Helm",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Freyja's+Helm",
+                "image": "/file/Elden-Ring/freyjas_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 28.1
+            },
+            {
+                "piece_name": "Freyja's Armor",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Freyja's+Armor",
+                "image": "/file/Elden-Ring/freyjas_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 28.2
+            },
+            {
+                "piece_name": "Freyja's Gauntlets",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Freyja's+Gauntlets",
+                "image": "/file/Elden-Ring/freyjas_gauntlets_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 28.3
+            },
+            {
+                "piece_name": "Freyja's Greaves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Freyja's+Greaves",
+                "image": "/file/Elden-Ring/freyjas_greaves_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 28.4
+            }
+        ],
+        "image": "/file/Elden-Ring/frejas-set-sote-elden-ring-wiki-guide.png",
+        "id": 28,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Gaius's Set",
+        "url": "https://eldenring.wiki.fextralife.com/Gaius's+Set",
+        "location_text": "Purchased at Roundtable Hold after defeating Command Gaius",
+        "spoiler": true,
+        "pieces": [
+            {
+                "piece_name": "Gaius's Helm",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Gaius's+Helm",
+                "image": "/file/Elden-Ring/gaiuss_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 30.1
+            },
+            {
+                "piece_name": "Gaius's Armor",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Gaius's+Armor",
+                "image": "/file/Elden-Ring/gaiuss_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 30.2
+            },
+            {
+                "piece_name": "Gaius's Gauntlets",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Gaius's+Gauntlets",
+                "image": "/file/Elden-Ring/gaiuss_gauntlets_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 30.3
+            },
+            {
+                "piece_name": "Gaius's Greaves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Gaius's+Greaves",
+                "image": "/file/Elden-Ring/gaiuss_greaves_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 30.4
+            }
+        ],
+        "image": "/file/Elden-Ring/gaius-set-sote-elden-ring-wiki-guide.png",
+        "id": 30,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Gravebird Set",
+        "url": "https://eldenring.wiki.fextralife.com/Gravebird+Set",
+        "location_text": "",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Gravebird Helm",
+                "location_text": "Found on by elevator at Spiral Rise Site of Grace",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Gravebird+Helm",
+                "image": "/file/Elden-Ring/gravebird_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 32.1
+            },
+            {
+                "piece_name": "Gravebird Armor",
+                "location_text": "Found at cliff under Belurat near some Gravebirds",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Gravebird+Armor",
+                "image": "/file/Elden-Ring/gravebird_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 32.2
+            },
+            {
+                "piece_name": "Gravebird's Blackquill Armor",
+                "location_text": "Found north of Temple Town Ruins Site of Grace",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Gravebird's+Blackquill+Armor",
+                "image": "/file/Elden-Ring/gravebirds_blackquill_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 32.3
+            },
+            {
+                "piece_name": "Gravebird Bracelets",
+                "location_text": "Found south of the Pillar Path Waypoint Site of Grace",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Gravebird+Bracelets",
+                "image": "/file/Elden-Ring/gravebird_bracelets_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 32.4
+            },
+            {
+                "piece_name": "Gravebird Anklets",
+                "location_text": "Found in swamp just south of Shadow Keep",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Gravebird+Anklets",
+                "image": "/file/Elden-Ring/gravebird_anklets_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 32.5
+            }
+        ],
+        "image": "/file/Elden-Ring/grave-bird-full-set-sote-elden-ring-wiki-guide-removebg-preview.png",
+        "id": 32,
+        "set_completion": 5
+    },
+    {
+        "category": "Armor",
+        "name": "Greatjar",
+        "url": "https://eldenring.wiki.fextralife.com/Greatjar",
+        "location_text": "Found in Belurat Gaol",
+        "spoiler": false,
+        "pieces": [],
+        "image": "/file/Elden-Ring/greatjar_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 34
+    },
+    {
+        "category": "Armor",
+        "name": "Night Set",
+        "url": "https://eldenring.wiki.fextralife.com/Night+Set",
+        "location_text": "Found in Bonny Gaol",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Helm of Night",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Helm+of+Night",
+                "image": "/file/Elden-Ring/helm_of_night_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 35.1
+            },
+            {
+                "piece_name": "Armor of Night",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Armor+of+Night",
+                "image": "/file/Elden-Ring/armor_of_night_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 35.2
+            },
+            {
+                "piece_name": "Gauntlets of Night",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Gauntlets+of+Night",
+                "image": "/file/Elden-Ring/gauntlets_of_night_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 35.3
+            },
+            {
+                "piece_name": "Greaves of Night",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Greaves+of+Night",
+                "image": "/file/Elden-Ring/greaves_of_night_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 35.4
+            }
+        ],
+        "image": "/file/Elden-Ring/night-set-sote-elden-ring-wiki-guide.png",
+        "id": 35,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Solitude Set",
+        "url": "https://eldenring.wiki.fextralife.com/Solitude+Set",
+        "location_text": "Dropped by Blackgaol Knight",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Helm of Solitude",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Helm+of+Solitude",
+                "image": "/file/Elden-Ring/helm_of_solitude_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 37.1
+            },
+            {
+                "piece_name": "Armor of Solitude",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Armor+of+Solitude",
+                "image": "/file/Elden-Ring/armor_of_solitude_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 37.2
+            },
+            {
+                "piece_name": "Gauntlets of Solitude",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Gauntlets+of+Solitude",
+                "image": "/file/Elden-Ring/gauntlets_of_solitude_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 37.3
+            },
+            {
+                "piece_name": "Greaves of Solitude",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Greaves+of+Solitude",
+                "image": "/file/Elden-Ring/greaves_of_solitude_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 37.4
+            }
+        ],
+        "image": "/file/Elden-Ring/solitude-set-sote-elden-ring-wiki-guide.png",
+        "id": 37,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "High Priest Set",
+        "url": "https://eldenring.wiki.fextralife.com/High+Priest+Set",
+        "location_text": "Dropped by Count Ymir, Mother of Fingers",
+        "spoiler": true,
+        "pieces": [
+            {
+                "piece_name": "High Priest Hat",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/High+Priest+Hat",
+                "image": "/file/Elden-Ring/high_priest_hat_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 39.1
+            },
+            {
+                "piece_name": "High Priest Robe",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/High+Priest+Robe",
+                "image": "/file/Elden-Ring/high_priest_robe_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 39.2
+            },
+            {
+                "piece_name": "High Priest Gloves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/High+Priest+Gloves",
+                "image": "/file/Elden-Ring/high_priest_gloves_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 39.3
+            },
+            {
+                "piece_name": "High Priest Undergarments",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/High+Priest+Undergarments",
+                "image": "/file/Elden-Ring/high_priest_undergarments_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 39.4
+            }
+        ],
+        "image": "/file/Elden-Ring/priest-set-sote-elden-ring-wiki-guide.png",
+        "id": 39,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Horned Warrior Set",
+        "url": "https://eldenring.wiki.fextralife.com/Horned+Warrior+Set",
+        "location_text": "Dropped by Horned Warriors",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Horned Warrior Helm",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Horned+Warrior+Helm",
+                "image": "/file/Elden-Ring/horned_warrior_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 41.1
+            },
+            {
+                "piece_name": "Horned Warrior Armor",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Horned+Warrior+Armor",
+                "image": "/file/Elden-Ring/horned_warrior_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 41.2
+            },
+            {
+                "piece_name": "Horned Warrior Gauntlets",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Horned+Warrior+Gauntlets",
+                "image": "/file/Elden-Ring/horned_warrior_gauntlets_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 41.3
+            },
+            {
+                "piece_name": "Horned Warrior Greaves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Horned+Warrior+Greaves",
+                "image": "/file/Elden-Ring/horned_warrior_greaves_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 41.4
+            }
+        ],
+        "image": "/file/Elden-Ring/horned-warrior-set-sote-elden-ring-wiki-guide-removebg-preview.png",
+        "id": 41,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Igon's Set",
+        "url": "https://eldenring.wiki.fextralife.com/Igon's+Set",
+        "location_text": "Defeat Igon or return to dueling drakes location after defeating Bayle",
+        "spoiler": true,
+        "pieces": [
+            {
+                "piece_name": "Igon's Helm",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Igon's+Helm",
+                "image": "/file/Elden-Ring/igons_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 43.1
+            },
+            {
+                "piece_name": "Igon's Armor",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Igon's+Armor",
+                "image": "/file/Elden-Ring/igons_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 43.2
+            },
+            {
+                "piece_name": "Igon's Gauntlets",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Igon's+Gauntlets",
+                "image": "/file/Elden-Ring/igons_gauntlets_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 43.3
+            },
+            {
+                "piece_name": "Igon's Loincloth",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Igon's+Loincloth",
+                "image": "/file/Elden-Ring/igons_loincloth_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 43.4
+            }
+        ],
+        "image": "/file/Elden-Ring/igons-set-sote-elden-ring-wiki-guide.png",
+        "id": 43,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Imp Head (Lion)",
+        "url": "https://eldenring.wiki.fextralife.com/Imp+Head+(Lion)",
+        "location_text": "Dropped by Lion Head Imps",
+        "spoiler": false,
+        "pieces": [],
+        "image": "/file/Elden-Ring/imp_head_(lion)_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 45
+    },
+    {
+        "category": "Armor",
+        "name": "Highland Warrior Set",
+        "url": "https://eldenring.wiki.fextralife.com/Highland+Warrior+Set",
+        "location_text": "Northwest of Ravine North Site of Grace in the forest",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Leather Headband",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Leather+Headband",
+                "image": "/file/Elden-Ring/leather_headband_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 46.1
+            },
+            {
+                "piece_name": "Gloried Attire",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Gloried+Attire",
+                "image": "/file/Elden-Ring/gloried_attire_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 46.2
+            },
+            {
+                "piece_name": "Leather Arm Wraps",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Leather+Arm+Wraps",
+                "image": "/file/Elden-Ring/leather_arm_wraps_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 46.3
+            },
+            {
+                "piece_name": "Leather Leg Wraps",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Leather+Leg+Wraps",
+                "image": "/file/Elden-Ring/leather_leg_wraps_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 46.4
+            }
+        ],
+        "image": "/file/Elden-Ring/highland_warrior-set-a-shadow-of-erdtree-set-elding-ring-wiki-guide.png",
+        "id": 46,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Messmer Soldier Set",
+        "url": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Set",
+        "location_text": "Dropped by Messmer Soldiers",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Messmer Soldier Helm",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Helm",
+                "image": "/file/Elden-Ring/messmer_soldier_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 48.1
+            },
+            {
+                "piece_name": "Messmer Soldier Armor",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Armor",
+                "image": "/file/Elden-Ring/messmer_soldier_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 48.2
+            },
+            {
+                "piece_name": "Messmer Soldier Gauntlets",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Gauntlets",
+                "image": "/file/Elden-Ring/messmer_soldier_gauntlets_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 48.3
+            },
+            {
+                "piece_name": "Messmer Soldier Greaves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Greaves",
+                "image": "/file/Elden-Ring/messmer_soldier_greaves_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 48.4
+            }
+        ],
+        "image": "/file/Elden-Ring/messmer-soldier-set-sote-elden-ring-wiki-guide.png",
+        "id": 48,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Messmer's Set",
+        "url": "https://eldenring.wiki.fextralife.com/Messmer's+Set",
+        "location_text": "Purchased at Roundtable Hold after defeating Messmer the Impaler",
+        "spoiler": true,
+        "pieces": [
+            {
+                "piece_name": "Messmer's Helm",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Messmer's+Helm",
+                "image": "/file/Elden-Ring/messmers_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 50.1
+            },
+            {
+                "piece_name": "Messmer's Armor",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Messmer's+Armor",
+                "image": "/file/Elden-Ring/messmers_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 50.2
+            },
+            {
+                "piece_name": "Messmer's Gauntlets",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Messmer's+Gauntlets",
+                "image": "/file/Elden-Ring/messmers_gauntlets_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 50.3
+            },
+            {
+                "piece_name": "Messmer's Greaves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Messmer's+Greaves",
+                "image": "/file/Elden-Ring/messmers_greaves_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 50.4
+            }
+        ],
+        "image": "/file/Elden-Ring/messmer-set-sote-elden-ring-wiki-guide.png",
+        "id": 50,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Oathseeker Knight Set",
+        "url": "https://eldenring.wiki.fextralife.com/Oathseeker+Knight+Set",
+        "location_text": "Found on ledge outside the Church of Benediction",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Oathseeker Knight Helm",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Oathseeker+Knight+Helm",
+                "image": "/file/Elden-Ring/oathseeker_knight_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 52.1
+            },
+            {
+                "piece_name": "Oathseeker Knight Armor",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Oathseeker+Knight+Armor",
+                "image": "/file/Elden-Ring/oathseeker_knight_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 52.2
+            },
+            {
+                "piece_name": "Oathseeker Knight Gauntlets",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Oathseeker+Knight+Gauntlets",
+                "image": "/file/Elden-Ring/oathseeker_knight_gauntlets_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 52.3
+            },
+            {
+                "piece_name": "Oathseeker Knight Greaves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Oathseeker+Knight+Greaves",
+                "image": "/file/Elden-Ring/oathseeker_knight_greaves_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 52.4
+            }
+        ],
+        "image": "/file/Elden-Ring/oathseeker-knight-set-sote-elden-ring-wiki-guide.png",
+        "id": 52,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Rakshasa Set",
+        "url": "https://eldenring.wiki.fextralife.com/Rakshasa+Set",
+        "location_text": "Dropped by Rakshasa",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Rakshasa Helm",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Rakshasa+Helm",
+                "image": "/file/Elden-Ring/rakshasa_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 54.1
+            },
+            {
+                "piece_name": "Rakshasa Armor",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Rakshasa+Armor",
+                "image": "/file/Elden-Ring/rakshasa_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 54.2
+            },
+            {
+                "piece_name": "Rakshasa Gauntlets",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Rakshasa+Gauntlets",
+                "image": "/file/Elden-Ring/rakshasa_gauntlets_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 54.3
+            },
+            {
+                "piece_name": "Rakshasa Greaves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Rakshasa+Greaves",
+                "image": "/file/Elden-Ring/rakshasa_greaves_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 54.4
+            }
+        ],
+        "image": "/file/Elden-Ring/rakshasa-set-sote-elden-ring-wiki-guide.png",
+        "id": 54,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Rellana's Set",
+        "url": "https://eldenring.wiki.fextralife.com/Rellana's+Set",
+        "location_text": "Purchased at Roundtable Hold after defeating Rella Twin Moon Knight",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Rellana's Helm",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Rellana's+Helm",
+                "image": "/file/Elden-Ring/rellanas_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 56.1
+            },
+            {
+                "piece_name": "Rellana's Armor",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Rellana's+Armor",
+                "image": "/file/Elden-Ring/rellanas_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 56.2
+            },
+            {
+                "piece_name": "Rellana's Gloves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Rellana's+Gloves",
+                "image": "/file/Elden-Ring/rellanas_gloves_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 56.3
+            },
+            {
+                "piece_name": "Rellana's Greaves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Rellana's+Greaves",
+                "image": "/file/Elden-Ring/rellanas_greaves_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 56.4
+            }
+        ],
+        "image": "/file/Elden-Ring/rellanas-set-sote-elden-ring-wiki-guide.png",
+        "id": 56,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Salza's Hood",
+        "url": "https://eldenring.wiki.fextralife.com/Salza's+Hood",
+        "location_text": "Dropped by Fire Knight at the west exit of Shadow Keep",
+        "spoiler": false,
+        "pieces": [],
+        "image": "/file/Elden-Ring/salzas_hood_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 58
+    },
+    {
+        "category": "Armor",
+        "name": "Shadow Militiaman Set",
+        "url": "https://eldenring.wiki.fextralife.com/Shadow+Militiaman+Set",
+        "location_text": "Dropped by Shadow Militiaman enemies in Shadow Keep",
+        "spoiler": false,
+        "pieces": [
+            {
+                "piece_name": "Shadow Militiaman Helm",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Shadow+Militiaman+Helm",
+                "image": "/file/Elden-Ring/shadow_militiaman_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 59.1
+            },
+            {
+                "piece_name": "Shadow Militiaman Armor",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Shadow+Militiaman+Armor",
+                "image": "/file/Elden-Ring/shadow_militiaman_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 59.2
+            },
+            {
+                "piece_name": "Shadow Militiaman Gauntlets",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Shadow+Militiaman+Gauntlets",
+                "image": "/file/Elden-Ring/shadow_militiaman_gauntlets_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 59.3
+            },
+            {
+                "piece_name": "Shadow Militiaman Greaves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Shadow+Militiaman+Greaves",
+                "image": "/file/Elden-Ring/shadow_militiaman_greaves_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 59.4
+            }
+        ],
+        "image": "/file/Elden-Ring/shadow-militiaman-set-sote-elden-ring-wiki-guide.png",
+        "id": 59,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "St. Trina's Blossom",
+        "url": "https://eldenring.wiki.fextralife.com/St.+Trina's+Blossom",
+        "location_text": "Found in the Garden of Deep Purple after completing Thiollier's quest",
+        "spoiler": true,
+        "pieces": [],
+        "image": "/file/Elden-Ring/st._trinas_blossom_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 61
+    },
+    {
+        "category": "Armor",
+        "name": "Thiollier's Set",
+        "url": "https://eldenring.wiki.fextralife.com/Thiollier's+Set",
+        "location_text": "Drops if you summon during the final boss",
+        "spoiler": true,
+        "pieces": [
+            {
+                "piece_name": "Thiollier's Mask",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Thiollier's+Mask",
+                "image": "/file/Elden-Ring/thiolliers_mask_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 62.1
+            },
+            {
+                "piece_name": "Thiollier's Garb",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Thiollier's+Garb",
+                "image": "/file/Elden-Ring/thiolliers_garb_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 62.2
+            },
+            {
+                "piece_name": "Thiollier's Gloves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Thiollier's+Gloves",
+                "image": "/file/Elden-Ring/thiolliers_gloves_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 62.3
+            },
+            {
+                "piece_name": "Thiollier's Trousers",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Thiollier's+Trousers",
+                "image": "/file/Elden-Ring/thiolliers_trousers_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 62.4
+            }
+        ],
+        "image": "/file/Elden-Ring/thiollier-set-sote-elden-ring-wiki-guide.png",
+        "id": 62,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Verdigris Set",
+        "url": "https://eldenring.wiki.fextralife.com/Verdigris+Set",
+        "location_text": "Drops at the end of Moore' questline",
+        "spoiler": true,
+        "pieces": [
+            {
+                "piece_name": "Verdigris Helm",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Verdigris+Helm",
+                "image": "/file/Elden-Ring/verdigris_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 64.1
+            },
+            {
+                "piece_name": "Verdigris Armor",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Verdigris+Armor",
+                "image": "/file/Elden-Ring/verdigris_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 64.2
+            },
+            {
+                "piece_name": "Verdigris Gauntlets",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Verdigris+Gauntlets",
+                "image": "/file/Elden-Ring/verdigris_gauntlets_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 64.3
+            },
+            {
+                "piece_name": "Verdigris Greaves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Verdigris+Greaves",
+                "image": "/file/Elden-Ring/verdigris_greaves_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 64.4
+            }
+        ],
+        "image": "/file/Elden-Ring/verdigris-set-sote-elden-ring-wiki-guide.png",
+        "id": 64,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Winged Serpent Helm",
+        "url": "https://eldenring.wiki.fextralife.com/Winged+Serpent+Helm",
+        "location_text": "Dropped from the Fire Knight outside of Messmer's Boss Room",
+        "spoiler": false,
+        "pieces": [],
+        "image": "/file/Elden-Ring/winged_serpent_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 66
+    },
+    {
+        "category": "Armor",
+        "name": "Ansbach's Set",
+        "url": "https://eldenring.wiki.fextralife.com/Ansbach's+Set",
+        "location_text": "Recieved if you side with Ansbach against Leda and summon him during the final boss",
+        "spoiler": true,
+        "pieces": [
+            {
+                "piece_name": "Wise Man's Mask",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Wise+Man's+Mask",
+                "image": "/file/Elden-Ring/wise_mans_mask_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 67.1
+            },
+            {
+                "piece_name": "Ansbach's Attire",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Ansbach's+Attire",
+                "image": "/file/Elden-Ring/ansbachs_attire_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 67.2
+            },
+            {
+                "piece_name": "Ansbach's Manchettes",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Ansbach's+Manchettes",
+                "image": "/file/Elden-Ring/ansbachs_manchettes_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 67.3
+            },
+            {
+                "piece_name": "Ansbach's Boots",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Ansbach's+Boots",
+                "image": "/file/Elden-Ring/ansbachs_boots_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 67.4
+            }
+        ],
+        "image": "/file/Elden-Ring/ansbach-set-sote-elden-ring-wiki-guide.png",
+        "id": 67,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Young Lion's Set",
+        "url": "https://eldenring.wiki.fextralife.com/Young+Lion's+Set",
+        "location_text": "Purchase at Roundtable Hold after defeating Promised Consort Radahn",
+        "spoiler": true,
+        "pieces": [
+            {
+                "piece_name": "Young Lion's Helm",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Young+Lion's+Helm",
+                "image": "/file/Elden-Ring/young_lions_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 69.1
+            },
+            {
+                "piece_name": "Young Lion's Armor",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Young+Lion's+Armor",
+                "image": "/file/Elden-Ring/young_lions_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 69.2
+            },
+            {
+                "piece_name": "Young Lion's Gauntlets",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Young+Lion's+Gauntlets",
+                "image": "/file/Elden-Ring/young_lions_gauntlets_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 69.3
+            },
+            {
+                "piece_name": "Young Lion's Greaves",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Young+Lion's+Greaves",
+                "image": "/file/Elden-Ring/young_lions_greaves_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 69.4
+            }
+        ],
+        "image": "/file/Elden-Ring/young-lions-set-sote-elden-ring-wiki-guide.png",
+        "id": 69,
+        "set_completion": 4
+    },
+    {
+        "category": "Armor",
+        "name": "Leda's Armor",
+        "url": "https://eldenring.wiki.fextralife.com/Leda's+Armor",
+        "location_text": "Reward after defeating Miquella's Allies",
+        "spoiler": true,
+        "pieces": [],
+        "image": "/file/Elden-Ring/ledas_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 71
+    },
+    {
+        "category": "Armor",
+        "name": "Soiled Loincloth",
+        "url": "https://eldenring.wiki.fextralife.com/Soiled+Loincloth",
+        "location_text": "Dropped by Hornset when invaded near Rauh Ancient Ruins Site of Grace",
+        "spoiler": true,
+        "pieces": [],
+        "image": "/file/Elden-Ring/soiled_loincloth_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 72
+    }
+]

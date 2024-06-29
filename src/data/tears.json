@@ -1,0 +1,82 @@
+[
+    {
+        "category": "Tears",
+        "sub_category": null,
+        "name": "Viridian Hidden Tear",
+        "url": "https://eldenring.wiki.fextralife.com/Viridian+Hidden+Tear",
+        "location_text": "Dropped by Furnace Golem in Ellac River",
+        "spoiler": false,
+        "image": "/file/Elden-Ring/viridian_hidden_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 199
+    },
+    {
+        "category": "Tears",
+        "sub_category": null,
+        "name": "Crimsonburst Dried Tear",
+        "url": "https://eldenring.wiki.fextralife.com/Crimsonburst+Dried+Tear",
+        "location_text": "Dropped by Furnace Golem in the camp south of Shadow Keep",
+        "spoiler": false,
+        "image": "/file/Elden-Ring/crimsonburst_dried_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 200
+    },
+    {
+        "category": "Tears",
+        "sub_category": null,
+        "name": "Crimson-Sapping Cracked Tear",
+        "url": "https://eldenring.wiki.fextralife.com/Crimson-Sapping+Cracked+Tear",
+        "location_text": "Dropped by Furnace Golem in west Rauh Ancient Ruins",
+        "spoiler": false,
+        "image": "/file/Elden-Ring/crimson-sapping_cracked_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 201
+    },
+    {
+        "category": "Tears",
+        "sub_category": null,
+        "name": "Cerulean-Sapping Cracked Tear",
+        "url": "https://eldenring.wiki.fextralife.com/Cerulean-Sapping+Cracked+Tear",
+        "location_text": "Dropped by Furnace Golem east of Cathedral of Manus Metyr",
+        "spoiler": false,
+        "image": "/file/Elden-Ring/cerulean-sapping_cracked_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 202
+    },
+    {
+        "category": "Tears",
+        "sub_category": null,
+        "name": "Oil-Soaked Tear",
+        "url": "https://eldenring.wiki.fextralife.com/Oil-Soaked+Tear",
+        "location_text": "Dropped by Furnace Golem in Ruins of Unte",
+        "spoiler": false,
+        "image": "/file/Elden-Ring/oil-soaked_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 203
+    },
+    {
+        "category": "Tears",
+        "sub_category": null,
+        "name": "Bloodsucking Cracked Tear",
+        "url": "https://eldenring.wiki.fextralife.com/Bloodsucking+Cracked+Tear",
+        "location_text": "Droped by Furnace Golem in Ruins of Unte that needs to be woken",
+        "spoiler": false,
+        "image": "/file/Elden-Ring/bloodsucking_cracked_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 204
+    },
+    {
+        "category": "Tears",
+        "sub_category": null,
+        "name": "Glovewort Crystal Tear",
+        "url": "https://eldenring.wiki.fextralife.com/Glovewort+Crystal+Tear",
+        "location_text": "Dropped by Furnace Golem in Charo's Hidden Grave",
+        "spoiler": false,
+        "image": "/file/Elden-Ring/glovewort_crystal_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 205
+    },
+    {
+        "category": "Tears",
+        "sub_category": null,
+        "name": "Deflecting Hardtear",
+        "url": "https://eldenring.wiki.fextralife.com/Deflecting+Hardtear",
+        "location_text": "Dropped by Furnace Golem in Gravesite Plains",
+        "spoiler": false,
+        "image": "/file/Elden-Ring/deflecting_hardtear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+        "id": 206
+    }
+]
