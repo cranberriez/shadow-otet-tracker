@@ -18,20 +18,23 @@ function ItemRight({ item, checkedItems, onCheck }) {
 								checked={checkedItems[piece.id] || false}
 								onChange={() => handlePieceCheck(piece.id)}
 							/>
-							<label htmlFor={`item-piece-${piece.id}`}>
-								{piece.piece_name}
-							</label>
 							
-							<img
-								src={`https://eldenring.wiki.fextralife.com${piece.image}`}
-								alt={piece.piece_name}
-								className="item-image"
-							/>
+							<div className="image-container">
+								<img
+									src={`https://eldenring.wiki.fextralife.com${piece.image}`}
+									alt={piece.piece_name}
+									className="item-image"
+								/>
+							</div>
 
 							<a href={piece.url} target="_blank" rel="noopener noreferrer" className="item-link-icon">
 								<FaExternalLinkAlt />
 							</a>
 
+                            <label htmlFor={`item-piece-${piece.id}`}>
+								{piece.piece_name}
+							</label>
+                            
 							<div className="item-text">
 								{piece.location_text}
 							</div>

@@ -1,46 +1,58 @@
+/* Filter.css */
+.all-button-container {
+    display: flex;
+}
+
+.all-button-container button {
+    width: 50%;
+}
+
 .filter {
-	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
 }
 
 .filter button {
-	margin: 5px;
+	margin-bottom: 10px;
 	padding: 10px 20px;
-	background-color: #f0f0f0;
-	border: 1px solid #ccc;
+	background-color: #333;
+	border: 1px solid #444;
+	color: #e0e0e0;
 	cursor: pointer;
 }
 
 .filter button.active {
-	background-color: #333;
+	background-color: #555;
 	color: #fff;
 }
 
 .filter button:hover {
-	background-color: #e0e0e0;
+	background-color: #444;
 }
 
 .checkbox-container {
 	display: inline-block;
-	margin: 5px;
+	margin-bottom: 10px;
 	padding: 10px 20px;
-	border: 1px solid #ccc;
+	border: 1px solid #444;
 	cursor: pointer;
-	background-color: #f0f0f0; /* Light color when not selected */
-	color: #000;
+	background-color: #333;
+	color: #e0e0e0; /* Light color when not selected */
 }
 
 .checkbox-container.checked {
-	background-color: #333; /* Dark color when selected */
+	background-color: #555; /* Dark color when selected */
 	color: #fff;
+    border: 1px solid white;
 }
 
 .filter label {
 	display: inline-block;
-	margin: 5px;
+	margin-bottom: 10px;
 	padding: 10px 20px;
 	background-color: #333;
-	color: #fff;
-	border: 1px solid #ccc;
+	color: #e0e0e0;
+	border: 1px solid #444;
 	cursor: pointer;
 }
 
@@ -49,6 +61,6 @@
 }
 
 .filter input[type="checkbox"]:checked + label {
-	background-color: #777;
+	background-color: #555;
 	color: #fff;
 }

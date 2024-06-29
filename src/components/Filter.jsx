@@ -38,8 +38,10 @@ function Filter({ filters, onFilterChange }) {
 
   return (
     <div className="filter">
-      <button onClick={handleSelectAll}>Select All</button>
-      <button onClick={handleDeselectAll}>Deselect All</button>
+      <div className="all-button-container">
+        <button onClick={handleSelectAll}>Select All</button>
+        <button onClick={handleDeselectAll}>Deselect All</button>
+      </div>
       {categories.map((category) => (
         <div
           key={category}
@@ -61,7 +63,7 @@ function Filter({ filters, onFilterChange }) {
       >
         Show Spoiler Items
       </div>
-      <div>
+      <div className="spoiler-warning">
         Spoiler Items Include Boss & NPC Drops. THIS IS A SPOILER WARNING
       </div>
     </div>

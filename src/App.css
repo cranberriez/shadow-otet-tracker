@@ -1,20 +1,37 @@
+/* App.css */
 .App {
+	display: flex;
+	background-color: #121212; /* Dark background */
+	color: #e0e0e0; /* Light text color */
 	font-family: Arial, sans-serif;
-	margin: 20px;
+	height: 100vh;
+}
+
+.sidebar {
+	width: 250px;
+	background-color: #1e1e1e; /* Slightly lighter dark background */
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	flex: 1;
+	padding: 20px;
+	overflow-y: auto;
 }
 
 .counters {
+	margin-top: 20px;
 	display: flex;
-	flex-wrap: wrap;
-	margin-bottom: 20px;
+	flex-direction: column;
 }
 
 .counter {
-	margin-right: 10px;
 	margin-bottom: 10px;
 	padding: 5px 10px;
-	background-color: #f0f0f0;
-	border: 1px solid #ccc;
+	background-color: #333;
+	border: 1px solid #444;
 	border-radius: 5px;
 }
 
@@ -35,4 +52,20 @@
 
 .scroll-to-top.show {
 	display: block; /* Show when the user scrolls down */
+}
+
+@media (max-width: 768px) {
+	.App {
+		flex-direction: column;
+	}
+	.sidebar {
+		width: 100%;
+		flex-direction: row;
+		overflow-x: auto;
+		background-color: #1e1e1e;
+		padding: 10px 0;
+	}
+	.counters {
+		flex-direction: row;
+	}
 }

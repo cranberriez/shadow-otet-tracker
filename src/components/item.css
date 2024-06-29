@@ -1,49 +1,133 @@
+/* Item.css */
 .item {
 	display: flex;
 	align-items: center;
 	margin-bottom: 10px;
 	padding: 10px;
-	border: 1px solid #ccc;
+	border: 1px solid #444; /* Dark border */
+	background-color: #1e1e1e; /* Slightly lighter dark background */
+	border-radius: 8px; /* Rounded edges for the item container */
+	position: relative; /* For positioning the spoiler/quest-missable text */
+}
+
+.item-left,
+.item-right {
+	display: flex;
+	align-items: center;
 }
 
 .item-left {
-	display: flex;
-	align-items: center;
-	width: 50%; /* Ensure consistent width */
 	margin-right: 10px;
+    width: 60%;
 }
 
 .item-right {
-	display: flex;
-	flex-direction: column;
-	width: 50%; /* Ensure consistent width */
+    width: 40%;
 }
 
 .item input[type="checkbox"] {
+	position: relative;
+	width: 30px; /* Increased width */
+	height: 30px; /* Increased height */
+    min-width: 30px;
+    min-height: 30px;
+    
 	margin-right: 20px;
 	margin-left: 5px;
-	transform: scale(3); /* Makes the checkbox twice its current size */
 	cursor: pointer;
+	appearance: none;
+	background-color: #333;
+	border: 1px solid #666;
+	border-radius: 4px;
+	outline: none;
+}
+
+.item input[type="checkbox"]:checked::before {
+	content: "✔";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 18px; /* Adjusted font size for the larger checkbox */
+}
+
+.item.checked {
+	border: 1px solid #8FBC8F; /* Light green border when checked */
+}
+
+.item.spoiler {
+	border: 1px dashed gold; /* Golden dashed border for spoilers */
+}
+
+.item.spoiler::before {
+	content: "Spoiler";
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background-color: rgba(218, 165, 32, 0.7); /* Golden background with some transparency */
+	color: #000;
+	padding: 2px 5px;
+	border-radius: 3px;
+	font-size: 0.8em;
+}
+
+.item.quest-missable {
+	border: 1px dashed blue; /* Blue dashed border for quest-missable items */
+}
+
+.item.quest-missable::before {
+	content: "Quest Missable";
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background-color: rgba(0, 0, 255, 0.2); /* Blue background with some transparency */
+	color: #000;
+	padding: 2px 5px;
+	border-radius: 3px;
+	font-size: 0.8em;
+	z-index: 1; /* Ensure it appears above the spoiler text */
+}
+
+/* Handling items that are both spoilers and quest-missable */
+.item.spoiler.quest-missable::before {
+	content: "Spoiler & Quest Missable";
+	background-color: rgba(0, 0, 255, 0.2); /* Blue background with some transparency */
 }
 
 .item label {
-	flex: 1.5; /* Adjust size as needed */
+	flex: 0.5;
+    min-width: 200px;
+	color: #e0e0e0;
+}
+
+.image-container {
+	position: relative;
+	display: inline-block;
 }
 
 .item .item-link-icon {
+	margin-left: 10px;
 	margin-right: 10px;
+	color: #fff;
+	font-size: 20px; /* Larger size */
+	vertical-align: middle;
 }
 
 .item .item-image {
 	width: 80px; /* Adjust size as needed to make the images larger */
 	height: auto;
 	margin-right: 10px;
+	background-color: #2e2e2e; /* Gray background */
+	border: 1px solid #444; /* Dark border */
+	border-radius: 5px; /* Rounded edges */
 }
 
 .item .item-text {
-	flex: 6; /* Reduce space to fit better with set pieces */
+	flex: 1; /* Reduce space to fit better with set pieces */
 	font-size: 0.9em;
 	margin-left: 10px;
+	color: #e0e0e0;
 }
 
 .item-pieces {
@@ -59,28 +143,56 @@
 }
 
 .item-piece input[type="checkbox"] {
+	position: relative;
+	width: 20px;
+	height: 20px;
 	margin-right: 15px;
-	transform: scale(2.5);
+	cursor: pointer;
+	appearance: none;
+	background-color: #333;
+	border: 1px solid #666;
+	border-radius: 4px;
+	outline: none;
+}
+
+.item-piece input[type="checkbox"]:checked::before {
+	content: "✔";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 12px;
 }
 
 .item-piece label {
 	flex: 1; /* Adjust size as needed */
+    min-width: 300px;
+	color: #e0e0e0;
 }
 
 .item-piece .item-link-icon {
-	margin-right: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #fff;
+	font-size: 16px; /* Larger size */
+	vertical-align: middle;
 }
 
 .item-piece .item-image {
 	width: 30px; /* Adjust size as needed */
 	height: auto;
 	margin-right: 5px;
+	background-color: #2e2e2e; /* Gray background */
+	border: 1px solid #444; /* Dark border */
+	border-radius: 5px; /* Rounded edges */
 }
 
 .item-piece .item-text {
 	flex: 4;
 	font-size: 0.8em;
 	margin-left: 5px;
+	color: #e0e0e0;
 }
 
 @media (max-width: 768px) {

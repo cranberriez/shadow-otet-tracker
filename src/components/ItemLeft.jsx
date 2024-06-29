@@ -18,11 +18,13 @@ function ItemLeft({ item, checkedItems, onCheck }) {
 				{item.name}
 			</label>
 			
-			<img
-				src={`https://eldenring.wiki.fextralife.com${item.image}`}
-				alt={item.name}
-				className="item-image"
-			/>
+			<div className="image-container">
+				<img
+					src={`https://eldenring.wiki.fextralife.com${item.image}`}
+					alt={item.name}
+					className="item-image"
+				/>
+			</div>
 
 			<a href={item.url} target="_blank" rel="noopener noreferrer" className="item-link-icon">
 				<FaExternalLinkAlt />
