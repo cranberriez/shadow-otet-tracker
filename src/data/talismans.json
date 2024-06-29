@@ -194,7 +194,7 @@
         "sub_category": null,
         "name": "Lacerating Crossed-Tree",
         "url": "https://eldenring.wiki.fextralife.com/Lacerating+Crossed-Tree",
-        "location_text": "Reward for aiding Leda to invade Hornsent",
+        "location_text": "Reward for aiding Leda to invade Hornsent (Missable)",
         "spoiler": false,
         "image": "/file/Elden-Ring/lacerating_crossed-tree_1_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 179
@@ -254,7 +254,7 @@
         "sub_category": null,
         "name": "Retaliatory Crossed-Tree",
         "url": "https://eldenring.wiki.fextralife.com/Retaliatory+Crossed-Tree",
-        "location_text": "Follow Leda's questline and invade Ansbach",
+        "location_text": "Follow Leda's questline and invade Ansbach (Missable)",
         "spoiler": false,
         "image": "/file/Elden-Ring/retaliatory_crossed-tree_1_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 185
@@ -305,7 +305,7 @@
         "name": "St. Trina's Smile",
         "url": "https://eldenring.wiki.fextralife.com/St.+Trina%27s+Smile",
         "location_text": "Found during Thiollier's quest",
-        "spoiler": false,
+        "spoiler": true,
         "image": "/file/Elden-Ring/st._trinas_smile_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 190
     },

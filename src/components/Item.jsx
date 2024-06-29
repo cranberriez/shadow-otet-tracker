@@ -22,14 +22,17 @@ function Item({ item, checkedItems, onCheck }) {
         <label htmlFor={`item-${item.id}`}>
           {item.name}
         </label>
-        <a href={item.url} target="_blank" rel="noopener noreferrer" className="item-link-icon">
-          <FaExternalLinkAlt />
-        </a>
+        
         <img
           src={`https://eldenring.wiki.fextralife.com${item.image}`}
           alt={item.name}
           className="item-image"
         />
+
+        <a href={item.url} target="_blank" rel="noopener noreferrer" className="item-link-icon">
+          <FaExternalLinkAlt />
+        </a>
+
         <div className="item-text">
           {item.location_text}
         </div>
@@ -48,14 +51,17 @@ function Item({ item, checkedItems, onCheck }) {
                 <label htmlFor={`item-piece-${piece.id}`}>
                   {piece.piece_name}
                 </label>
-                <a href={piece.url} target="_blank" rel="noopener noreferrer" className="item-link-icon">
-                  <FaExternalLinkAlt />
-                </a>
+                
                 <img
                   src={`https://eldenring.wiki.fextralife.com${piece.image}`}
                   alt={piece.piece_name}
                   className="item-image"
                 />
+
+                <a href={piece.url} target="_blank" rel="noopener noreferrer" className="item-link-icon">
+                  <FaExternalLinkAlt />
+                </a>
+
                 <div className="item-text">
                   {piece.location_text}
                 </div>

@@ -601,12 +601,12 @@
         "category": "Armor",
         "name": "Gravebird Set",
         "url": "https://eldenring.wiki.fextralife.com/Gravebird+Set",
-        "location_text": "",
+        "location_text": "Each piece dropped in different places",
         "spoiler": false,
         "pieces": [
             {
                 "piece_name": "Gravebird Helm",
-                "location_text": "Found on by elevator at Spiral Rise Site of Grace",
+                "location_text": "Found on by elevator at Spiral Rise Site of Grace, end game area",
                 "spoiler": false,
                 "url": "https://eldenring.wiki.fextralife.com/Gravebird+Helm",
                 "image": "/file/Elden-Ring/gravebird_helm_helm_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
@@ -622,7 +622,7 @@
             },
             {
                 "piece_name": "Gravebird's Blackquill Armor",
-                "location_text": "Found north of Temple Town Ruins Site of Grace",
+                "location_text": "Found north of Temple Town Ruins Site of Grace, provides jump attack bonus",
                 "spoiler": false,
                 "url": "https://eldenring.wiki.fextralife.com/Gravebird's+Blackquill+Armor",
                 "image": "/file/Elden-Ring/gravebirds_blackquill_armor_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
@@ -1114,7 +1114,7 @@
         "name": "Rellana's Set",
         "url": "https://eldenring.wiki.fextralife.com/Rellana's+Set",
         "location_text": "Purchased at Roundtable Hold after defeating Rella Twin Moon Knight",
-        "spoiler": false,
+        "spoiler": true,
         "pieces": [
             {
                 "piece_name": "Rellana's Helm",

@@ -60,6 +60,9 @@ function Filter({ filters, onFilterChange }) {
       >
         Show Spoiler Items
       </div>
+      <div>
+        Spoiler Items Include Boss & NPC Drops. THIS IS A SPOILER WARNING
+      </div>
     </div>
   );
 }

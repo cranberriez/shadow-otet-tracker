@@ -85,7 +85,7 @@
         "name": "Claws of Night",
         "url": "https://eldenring.wiki.fextralife.com/Claws+of+Night",
         "location_text": "Dropped by Swordhand of Night Anna under Catherdral of Manus Metyr",
-        "spoiler": false,
+        "spoiler": true,
         "image": "/file/Elden-Ring/claws_of_night_unique_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 219
     },
@@ -115,7 +115,7 @@
         "name": "Ansbach's Longbow",
         "url": "https://eldenring.wiki.fextralife.com/Ansbach%27s+Longbow",
         "location_text": "Dropped from Ansbach",
-        "spoiler": false,
+        "spoiler": true,
         "image": "/file/Elden-Ring/ansbachs_longbow_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 222
     },
@@ -255,7 +255,7 @@
         "name": "Freyja's Greatsword",
         "url": "https://eldenring.wiki.fextralife.com/Freyja%27s+Greatsword",
         "location_text": "Found near Storehouse, Seventh Floor Site of Grace after she leaves",
-        "spoiler": false,
+        "spoiler": true,
         "image": "/file/Elden-Ring/freyjas_greatsword_greatsword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 236
     },
@@ -335,7 +335,7 @@
         "name": "Thiollier's Hidden Needle",
         "url": "https://eldenring.wiki.fextralife.com/Thiollier%27s+Hidden+Needle",
         "location_text": "Looted from Thiollier after completing his quest and beating the final boss",
-        "spoiler": false,
+        "spoiler": true,
         "image": "/file/Elden-Ring/thiolliers_hidden_needle_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 244
     },
@@ -385,7 +385,7 @@
         "name": "Maternal Staff",
         "url": "https://eldenring.wiki.fextralife.com/Maternal+Staff",
         "location_text": "Dropped from Count Ymir, Mother of Fingers",
-        "spoiler": false,
+        "spoiler": true,
         "image": "/file/Elden-Ring/dryleaf_seal_glinstone_staff_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 249
     },
@@ -425,7 +425,7 @@
         "name": "Igon's Greatbow",
         "url": "https://eldenring.wiki.fextralife.com/Igon%27s+Greatbow",
         "location_text": "Defeat Igon in Gravesite Plain",
-        "spoiler": false,
+        "spoiler": true,
         "image": "/file/Elden-Ring/igons_greatbow_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 253
     },
@@ -515,7 +515,7 @@
         "name": "Barbed Staff-Spear",
         "url": "https://eldenring.wiki.fextralife.com/Barbed+Staff-Spear",
         "location_text": "Dropped from Jori Elder Inquisitor",
-        "spoiler": false,
+        "spoiler": true,
         "image": "/file/Elden-Ring/barbed_staff-spear_spears_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 262
     },
@@ -595,7 +595,7 @@
         "name": "Dane's Footwork",
         "url": "https://eldenring.wiki.fextralife.com/Dane%27s+Footwork",
         "location_text": "Drop from Dryleaf Dane at Moorth Ruins",
-        "spoiler": false,
+        "spoiler": true,
         "image": "/file/Elden-Ring/danes_footwork_hand-to-hand_arts_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 270
     },
@@ -635,7 +635,7 @@
         "name": "Sword of Night",
         "url": "https://eldenring.wiki.fextralife.com/Sword+of+Night",
         "location_text": "Give Jolan Iris of Occultation after defeating Ymir",
-        "spoiler": false,
+        "spoiler": true,
         "image": "/file/Elden-Ring/sword_of_night_katana_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 274
     },
@@ -665,7 +665,7 @@
         "name": "Leda's Sword",
         "url": "https://eldenring.wiki.fextralife.com/Leda%27s+Sword",
         "location_text": "In Enir-Ilim after defeating the followers of Miquella",
-        "spoiler": false,
+        "spoiler": true,
         "image": "/file/Elden-Ring/ledas_sword_light_greatswords_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 277
     },
@@ -735,7 +735,7 @@
         "name": "Obsidian Lamina",
         "url": "https://eldenring.wiki.fextralife.com/Obsidian+Lamina",
         "location_text": "Reward from Sir Ansbach after completing his quest and defeating the final boss",
-        "spoiler": false,
+        "spoiler": true,
         "image": "/file/Elden-Ring/obsidian_lamina_reaper_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 284
     },
