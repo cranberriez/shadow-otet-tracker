@@ -25,8 +25,10 @@
   }
   
   .item input[type="checkbox"] {
-    margin-right: 15px;
-    transform: scale(1.5); /* Makes the checkbox twice its current size */
+    margin-right: 20px;
+    margin-left: 5px;
+    transform: scale(3); /* Makes the checkbox twice its current size */
+    cursor: pointer;
   }
   
   .item label {
