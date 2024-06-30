@@ -40,7 +40,7 @@
     cursor: pointer;
     background-color: #333;
     color: #e0e0e0;
-    /* Light color when not selected */
+    font-size: 14px;
 }
 
 .checkbox-container p {

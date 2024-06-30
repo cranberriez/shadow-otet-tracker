@@ -22,7 +22,6 @@ export const useItems = (initialSelectedCategories) => {
         showSpoilers: false
     });
     const [searchQuery, setSearchQuery] = useState('');
-    const [showScroll, setShowScroll] = useState(false);
 
     useEffect(() => {
         // Combine the data from all JSON files
@@ -45,24 +44,12 @@ export const useItems = (initialSelectedCategories) => {
         // Load checked items from localStorage
         const storedCheckedItems = JSON.parse(localStorage.getItem('checkedItems')) || {};
         setCheckedItems(storedCheckedItems);
-
-        // Add scroll event listener
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
     useEffect(() => {
         // Save checked items to localStorage
         localStorage.setItem('checkedItems', JSON.stringify(checkedItems));
     }, [checkedItems]);
-
-    const handleScroll = () => {
-        if (window.scrollY > 5) {
-            setShowScroll(true);
-        } else {
-            setShowScroll(false);
-        }
-    };
 
     const handleCheck = (id) => {
         setCheckedItems((prevCheckedItems) => {
@@ -77,20 +64,22 @@ export const useItems = (initialSelectedCategories) => {
             }
 
             // If the item is a piece, check if all pieces are now checked and mark the set as checked
-            if (!item || (item && item.pieces.length === 0)) {
-                const setItemId = Math.floor(id);
-                const setItem = items.find(item => item.id === setItemId);
-                if (setItem && setItem.pieces) {
-                    const allPiecesChecked = setItem.pieces.every(piece =>
-                        piece.id === id ? newCheckedItems[piece.id] : prevCheckedItems[piece.id]
-                    );
+            if (item.pieces) {
+                if (!item || (item && item.pieces.length === 0)) {
+                    const setItemId = Math.floor(id);
+                    const setItem = items.find(item => item.id === setItemId);
+                    if (setItem && setItem.pieces) {
+                        const allPiecesChecked = setItem.pieces.every(piece =>
+                            piece.id === id ? newCheckedItems[piece.id] : prevCheckedItems[piece.id]
+                        );
+                        newCheckedItems[setItemId] = allPiecesChecked;
+                    }
+                } else {
+                    // If the item is a set, uncheck the set if any piece is unchecked
+                    const setItemId = item.id;
+                    const allPiecesChecked = item.pieces.every(piece => newCheckedItems[piece.id]);
                     newCheckedItems[setItemId] = allPiecesChecked;
                 }
-            } else {
-                // If the item is a set, uncheck the set if any piece is unchecked
-                const setItemId = item.id;
-                const allPiecesChecked = item.pieces.every(piece => newCheckedItems[piece.id]);
-                newCheckedItems[setItemId] = allPiecesChecked;
             }
 
             return newCheckedItems;
@@ -147,10 +136,6 @@ export const useItems = (initialSelectedCategories) => {
         })
         .sort((a, b) => extractNumber(a.url) - extractNumber(b.url));
 
-    const scrollToTop = () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    };
-
     const getCountsByCategory = () => {
         const counts = {
             'Weapons': { total: 0, acquired: 0 },
@@ -193,13 +178,11 @@ export const useItems = (initialSelectedCategories) => {
         items,
         checkedItems,
         filters,
-        showScroll,
         handleCheck,
         handleFilterChange,
         handleSearchChange,
         handleTagFilterChange,
         filteredItems,
-        scrollToTop,
         counts
     };
 };

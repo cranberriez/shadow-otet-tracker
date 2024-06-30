@@ -5,17 +5,25 @@ import './item.css';
 
 function Item({ item, checkedItems, onCheck }) {
     const isChecked = checkedItems[item.id] || (item.pieces?.length && item.pieces.every(piece => checkedItems[piece.id]));
-    const itemClass = `item ${isChecked ? 'checked' : ''} ${item.tags.includes('boss') ? 'boss' : ''} ${item.tags.includes('quest') ? 'quest' : ''} ${item.tags.includes('missable') ? 'missable' : ''} ${item.tags.includes('spoiler') ? 'spoiler' : ''}`;
+    const itemClass = ['item', (isChecked ? 'checked' : ''), ...item.tags].join(' ')
+
+    const tagLabels = {
+        boss: 'Boss',
+        quest: 'Quest',
+        missable: 'Missable',
+        spoiler: 'Spoiler'
+    };
 
     return (
-        <div className={itemClass}>
+        <div className={`${itemClass} ${item.category}`}>
             <ItemLeft item={item} checkedItems={checkedItems} onCheck={onCheck} />
             <ItemRight item={item} checkedItems={checkedItems} onCheck={onCheck} />
             <div className="tags">
-                {item.tags.includes('boss') && <span className="tag boss-tag">Boss</span>}
-                {item.tags.includes('quest') && <span className="tag quest-tag">Quest</span>}
-                {item.tags.includes('missable') && <span className="tag missable-tag">Missable</span>}
-                {item.tags.includes('spoiler') && <span className="tag spoiler-tag">Spoiler</span>}
+                {item.tags
+                    .filter(tag => tagLabels[tag])
+                    .map(tag => (
+                        <span key={tag} className={`tag ${tag}-tag`}>{tagLabels[tag]}</span>
+                    ))}
             </div>
         </div>
     );

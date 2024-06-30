@@ -5,7 +5,6 @@
     /* Dark background */
     color: #e0e0e0;
     /* Light text color */
-    font-family: Arial, sans-serif;
     height: 100vh;
 }
 
@@ -31,7 +30,7 @@
 .fixed-container {
     position: fixed;
     top: 0;
-    width: calc(100% - 330px);
+    width: calc(100% - 345px);
     /* Adjust width considering the sidebar */
     background-color: #121212;
     /* Dark background to match content */
@@ -60,7 +59,6 @@
     position: fixed;
     bottom: 20px;
     left: 50%;
-    transform: translateX(-50%);
     background-color: #333;
     color: #fff;
     border: none;
@@ -68,13 +66,17 @@
     cursor: pointer;
     border-radius: 5px;
     font-size: 16px;
-    display: none;
-    /* Initially hidden */
+    z-index: 1000;
+    /* Ensure it's above other elements */
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
 }
 
 .scroll-to-top.show {
-    display: block;
-    /* Show when the user scrolls down */
+    opacity: 1;
+    visibility: visible;
 }
 
 .burger-menu {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import './App.css';
 import Filter from './components/Filter';
 import ItemList from './components/ItemList';
@@ -26,17 +26,16 @@ function App() {
     const {
         checkedItems,
         filters,
-        showScroll,
         handleCheck,
         handleFilterChange,
         handleSearchChange,
         handleTagFilterChange,
         filteredItems,
-        scrollToTop,
         counts,
     } = useItems(initialSelectedCategories);
 
     const [isMobileSidebarOpen, setMobileSidebarOpen] = useState(false);
+    const contentRef = useRef(null); // reference to content for scroll to top button
 
     const toggleMobileSidebar = () => {
         setMobileSidebarOpen(!isMobileSidebarOpen);
@@ -53,7 +52,7 @@ function App() {
             <button className="burger-menu" onClick={toggleMobileSidebar}>
                 {isMobileSidebarOpen ? '✖' : '☰'}
             </button>
-            <div className="content">
+            <div className="content" ref={contentRef}>
                 <div className="fixed-container">
                     <SearchBar
                         filters={filters}
@@ -66,7 +65,7 @@ function App() {
                 {isAnyCategorySelected && (
                     <>
                         <ItemList items={filteredItems} checkedItems={checkedItems} onCheck={handleCheck} />
-                        <ScrollToTopButton showScroll={showScroll} onClick={scrollToTop} />
+                        <ScrollToTopButton containerRef={contentRef} />
                     </>
                 )}
             </div>

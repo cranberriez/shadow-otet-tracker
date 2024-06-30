@@ -93,6 +93,7 @@
     flex: 0.5;
     min-width: 200px;
     color: #e0e0e0;
+    font-size: 1.1rem;
 }
 
 .image-container {
@@ -142,6 +143,7 @@
 .item-pieces {
     display: flex;
     flex-direction: column;
+    position: relative;
     width: 100%;
     /* Ensure set pieces take up the full space of the right column */
 }
@@ -248,6 +250,10 @@
         align-items: flex-start;
     }
 
+    .item.Armor {
+        row-gap: 10px;
+    }
+
     .item-left,
     .item-right {
         width: 100%;
@@ -255,7 +261,6 @@
     }
 
     .item-right {
-        margin-top: 10px;
         flex-direction: row;
         flex-wrap: wrap;
         /* Wrap items to the next line if needed */

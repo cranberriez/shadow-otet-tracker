@@ -1,16 +1,33 @@
-import PropTypes from 'prop-types';
+import React, { useState, useEffect } from 'react';
 
-function ScrollToTopButton({ showScroll, onClick }) {
+function ScrollToTopButton({ containerRef }) {
+    const [showScroll, setShowScroll] = useState(false);
+
+    const handleScroll = () => {
+        if (containerRef.current.scrollTop > 300) {
+            setShowScroll(true);
+        } else {
+            setShowScroll(false);
+        }
+    };
+
+    const scrollToTop = () => {
+        containerRef.current.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    useEffect(() => {
+        const container = containerRef.current;
+        container.addEventListener('scroll', handleScroll);
+        return () => {
+            container.removeEventListener('scroll', handleScroll);
+        };
+    }, [containerRef]);
+
     return (
-        <button className={`scroll-to-top ${showScroll ? 'show' : ''}`} onClick={onClick}>
+        <button className={`scroll-to-top ${showScroll ? 'show' : ''}`} onClick={scrollToTop}>
             Scroll to Top
         </button>
     );
 }
-
-ScrollToTopButton.propTypes = {
-    showScroll: PropTypes.bool.isRequired,
-    onClick: PropTypes.func.isRequired,
-};
 
 export default ScrollToTopButton;
