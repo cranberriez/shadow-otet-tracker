@@ -15,6 +15,10 @@ const initialSelectedCategories = {
   'Tears': true,
   'Tools': true,
   'Armor': true,
+  'Cookbooks': true,
+  'Bell Bearings': true,
+  'Scadutree Fragments': true,
+  'Revered Spirit Ashes': true
 };
 
 function App() {

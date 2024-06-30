@@ -1,0 +1,121 @@
+[
+    {
+        "category": "Bell Bearings",
+        "sub_category": null,
+        "name": "Moore's Bell Bearing",
+        "url": "https://eldenring.wiki.fextralife.com/Moore's+Bell+Bearing",
+        "location_text": "Reward after completing Moore's quest",
+        "spoiler": false,
+        "image": "/file/Elden-Ring/kales_bell_bearing-elden-ring-wiki-guide-200.png",
+        "id": 358.0,
+        "tags": [
+            "quest"
+        ]
+    },
+    {
+        "category": "Bell Bearings",
+        "sub_category": null,
+        "name": "Ymir's Bell Bearing",
+        "url": "https://eldenring.wiki.fextralife.com/Ymir's+Bell+Bearing",
+        "location_text": "Dropped after killing Ymir",
+        "spoiler": false,
+        "image": "/file/Elden-Ring/kales_bell_bearing-elden-ring-wiki-guide-200.png",
+        "id": 359.0,
+        "tags": [
+            "spoiler",
+            "boss",
+            "quest"
+        ]
+    },
+    {
+        "category": "Bell Bearings",
+        "sub_category": null,
+        "name": "Igon's Bell Bearing",
+        "url": "https://eldenring.wiki.fextralife.com/Igon's+Bell+Bearing",
+        "location_text": "Found on Igon's body after defeating Bayle",
+        "spoiler": false,
+        "image": "/file/Elden-Ring/kales_bell_bearing-elden-ring-wiki-guide-200.png",
+        "id": 360.0,
+        "tags": [
+            "quest",
+            "boss"
+        ]
+    },
+    {
+        "category": "Bell Bearings",
+        "sub_category": null,
+        "name": "Herbalist's Bell Bearing",
+        "url": "https://eldenring.wiki.fextralife.com/Herbalist's+Bell+Bearing",
+        "location_text": "Found in a hanging pot in the ravine between Pillar Path Waypoint Site of Grace and Dragon's Pit Site of Grace",
+        "spoiler": false,
+        "image": "/file/Elden-Ring/kales_bell_bearing-elden-ring-wiki-guide-200.png",
+        "id": 361.0,
+        "tags": []
+    },
+    {
+        "category": "Bell Bearings",
+        "sub_category": null,
+        "name": "Mushroom-Seller's Bell Bearing [1]",
+        "url": "https://eldenring.wiki.fextralife.com/Mushroom-Seller's+Bell+Bearing+(1)",
+        "location_text": "Found in a hanging pot near Rivermouth Cave",
+        "spoiler": false,
+        "image": "/file/Elden-Ring/kales_bell_bearing-elden-ring-wiki-guide-200.png",
+        "id": 362.0,
+        "tags": []
+    },
+    {
+        "category": "Bell Bearings",
+        "sub_category": null,
+        "name": "Mushroom-Seller's Bell Bearing [2]",
+        "url": "https://eldenring.wiki.fextralife.com/Mushroom-Seller's+Bell+Bearing+(2)",
+        "location_text": "Found in a hanging pot at the waterfall near Ellac River Cave Site of Grace",
+        "spoiler": false,
+        "image": "/file/Elden-Ring/kales_bell_bearing-elden-ring-wiki-guide-200.png",
+        "id": 363.0,
+        "tags": []
+    },
+    {
+        "category": "Bell Bearings",
+        "sub_category": null,
+        "name": "Greasemonger's Bell Bearing",
+        "url": "https://eldenring.wiki.fextralife.com/Greasemonger's+Bell+Bearing",
+        "location_text": "Found in a hanging pot east of Cathedral of Manus Metyr",
+        "spoiler": false,
+        "image": "/file/Elden-Ring/kales_bell_bearing-elden-ring-wiki-guide-200.png",
+        "id": 364.0,
+        "tags": []
+    },
+    {
+        "category": "Bell Bearings",
+        "sub_category": null,
+        "name": "Moldmonger's Bell Bearing",
+        "url": "https://eldenring.wiki.fextralife.com/Moldmonger's+Bell+Bearing",
+        "location_text": "Found in a hanging pot near Recluse's River Downstream Site of Grace",
+        "spoiler": false,
+        "image": "/file/Elden-Ring/kales_bell_bearing-elden-ring-wiki-guide-200.png",
+        "id": 365.0,
+        "tags": []
+    },
+    {
+        "category": "Bell Bearings",
+        "sub_category": null,
+        "name": "Spellmachinist's Bell Bearing",
+        "url": "https://eldenring.wiki.fextralife.com/Spellmachinist's+Bell+Bearing",
+        "location_text": "Found in Rabbath's Rise when entering from the Shaman Village",
+        "spoiler": false,
+        "image": "/file/Elden-Ring/kales_bell_bearing-elden-ring-wiki-guide-200.png",
+        "id": 366.0,
+        "tags": []
+    },
+    {
+        "category": "Bell Bearings",
+        "sub_category": null,
+        "name": "String-Seller's Bell Bearing",
+        "url": "https://eldenring.wiki.fextralife.com/String-Seller's+Bell+Bearing",
+        "location_text": "Found in a hanging pot in a ravine near Prospect Town",
+        "spoiler": false,
+        "image": "/file/Elden-Ring/kales_bell_bearing-elden-ring-wiki-guide-200.png",
+        "id": 367.0,
+        "tags": []
+    }
+]

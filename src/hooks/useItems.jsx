@@ -7,6 +7,10 @@ import talismansData from '../data/talismans.json';
 import tearsData from '../data/tears.json';
 import toolsData from '../data/tools.json';
 import armorData from '../data/armor.json';
+import bellbearingData from '../data/bell_bearings.json';
+import cookbookData from '../data/cookbooks.json';
+import reveredData from '../data/revered_spirit_ashes.json';
+import scadutreeData from '../data/scadutree_fragments.json';
 
 export const useItems = (initialSelectedCategories) => {
   const [items, setItems] = useState([]);
@@ -29,7 +33,11 @@ export const useItems = (initialSelectedCategories) => {
       ...talismansData,
       ...tearsData,
       ...toolsData,
-      ...armorData
+      ...armorData,
+      ...bellbearingData,
+      ...cookbookData,
+      ...reveredData,
+      ...scadutreeData
     ];
     setItems(combinedData);
 
@@ -118,6 +126,10 @@ export const useItems = (initialSelectedCategories) => {
       'Tears': { total: 0, acquired: 0 },
       'Tools': { total: 0, acquired: 0 },
       'Armor': { total: 0, acquired: 0 },
+      'Bell Bearings': { total: 0, acquired: 0 },
+      'Cookbooks': { total: 0, acquired: 0 },
+      'Revered Spirit Ashes': { total: 0, acquired: 0 },
+      'Scadutree Fragments': { total: 0, acquired: 0 },
     };
 
     items.forEach(item => {

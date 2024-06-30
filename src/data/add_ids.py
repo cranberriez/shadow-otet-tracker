@@ -3,19 +3,13 @@ import os
 
 # List of JSON file names
 files = [
-    "armor.json",
-    "ashes_of_war.json",
-    "spells.json",
-    "spirit_ashes.json",
-    "talismans.json",
-    "tears.json",
-    "tools.json",
-    "weapons.json"
+    "revered_spirit_ashes.json",
+    "scadutree_fragments.json"
 ]
 
 # Function to generate unique decimal IDs
 def generate_ids(files, data_dir):
-    current_id = 1.0
+    current_id = 368.0
     for file in files:
         file_path = os.path.join(data_dir, file)
         with open(file_path, "r", encoding="utf-8") as f:

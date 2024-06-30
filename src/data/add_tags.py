@@ -2,14 +2,8 @@ import json
 
 # List of JSON files to process
 files = [
-    'armor.json',
-    'ashes_of_war.json',
-    'spells.json',
-    'spirit_ashes.json',
-    'talismans.json',
-    'tears.json',
-    'tools.json',
-    'weapons.json'
+    "revered_spirit_ashes.json",
+    "scadutree_fragments.json"
 ]
 
 def generate_tags(item):

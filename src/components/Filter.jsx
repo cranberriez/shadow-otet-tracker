@@ -10,6 +10,10 @@ const categories = [
   'Tears',
   'Tools',
   'Armor',
+  'Cookbooks',
+  'Bell Bearings',
+  'Scadutree Fragments',
+  'Revered Spirit Ashes'
 ];
 
 const tags = ['spoiler', 'boss', 'quest', 'missable'];
