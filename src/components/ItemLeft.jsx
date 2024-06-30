@@ -33,6 +33,12 @@ function ItemLeft({ item, checkedItems, onCheck }) {
 			<div className="item-text">
 				{item.location_text}
 			</div>
+
+            {item['sub_category'] && (
+					<div className="sub-category">
+						{item['sub_category']}
+					</div>
+				)}
 		</div>
 	);
 }

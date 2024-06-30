@@ -21,6 +21,7 @@ export const useItems = (initialSelectedCategories) => {
     showChecked: true,
     showSpoilers: false
   });
+  const [searchQuery, setSearchQuery] = useState('');
   const [showScroll, setShowScroll] = useState(false);
 
   useEffect(() => {
@@ -83,6 +84,19 @@ export const useItems = (initialSelectedCategories) => {
     setFilters(newFilters);
   };
 
+  const handleSearchChange = (query) => {
+    setSearchQuery(query);
+  };
+
+  const handleTagFilterChange = (tag) => {
+    setFilters((prevFilters) => {
+      const newSelectedTags = prevFilters.selectedTags.includes(tag)
+        ? prevFilters.selectedTags.filter((t) => t !== tag)
+        : [...prevFilters.selectedTags, tag];
+      return { ...prevFilters, selectedTags: newSelectedTags };
+    });
+  };
+
   const extractNumber = (url) => {
     if (!url) return 0;
     const match = url.match(/(\d+)$/);
@@ -95,6 +109,7 @@ export const useItems = (initialSelectedCategories) => {
       const isCategorySelected = selectedCategories[item.category];
       const isSpoiler = item.tags.includes('spoiler');
       const hasTags = selectedTags.every(tag => item.tags.includes(tag));
+      const matchesSearchQuery = item.name.toLowerCase().includes(searchQuery.toLowerCase());
 
       if (!isCategorySelected) {
         return false;
@@ -106,6 +121,9 @@ export const useItems = (initialSelectedCategories) => {
         return false;
       }
       if (selectedTags.length > 0 && !hasTags) {
+        return false;
+      }
+      if (!matchesSearchQuery) {
         return false;
       }
       return true;
@@ -161,6 +179,8 @@ export const useItems = (initialSelectedCategories) => {
     showScroll,
     handleCheck,
     handleFilterChange,
+    handleSearchChange,
+    handleTagFilterChange,
     filteredItems,
     scrollToTop,
     counts

@@ -106,6 +106,15 @@
 	color: #e0e0e0;
 }
 
+.sub-category {
+	font-size: 0.8em;
+	color: #666;
+    font-weight: bold;
+	top: 10px;
+    left: 15px;
+    position: absolute;
+}
+
 .item-pieces {
 	display: flex;
 	flex-direction: column;

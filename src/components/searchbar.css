@@ -1,0 +1,71 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .tag-buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  
+  .tag-button {
+    padding: 10px 15px;
+    border: 2px solid; /* Set the border to 2px */
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent; /* No background when not selected */
+    color: inherit; /* Inherit the color for text */
+    transition: 300ms;
+  }
+  
+  .tag-button.spoiler-tag {
+    border-color: rgba(218, 165, 32, 0.7); /* Golden border */
+    color: rgba(218, 165, 32, 0.7); /* Golden text */
+  }
+  
+  .tag-button.spoiler-tag.active {
+    background-color: rgba(218, 165, 32, 1); /* Bright golden background */
+    color: #000; /* Black text */
+  }
+  
+  .tag-button.boss-tag {
+    border-color: rgba(201, 0, 0, 0.7); /* Dark red border */
+    color: rgba(201, 0, 0, 0.7); /* Dark red text */
+  }
+  
+  .tag-button.boss-tag.active {
+    background-color: rgba(201, 0, 0, 1); /* Bright red background */
+    color: #000; /* Black text */
+  }
+  
+  .tag-button.quest-tag {
+    border-color: rgba(0, 191, 255, 0.7); /* Light blue border */
+    color: rgba(0, 191, 255, 0.7); /* Light blue text */
+  }
+  
+  .tag-button.quest-tag.active {
+    background-color: rgba(0, 191, 255, 1); /* Bright light blue background */
+    color: #000; /* Black text */
+  }
+  
+  .tag-button.missable-tag {
+    border-color: rgba(30, 144, 255, 0.7); /* Dodger blue border */
+    color: rgba(30, 144, 255, 0.7); /* Dodger blue text */
+  }
+  
+  .tag-button.missable-tag.active {
+    background-color: rgba(30, 144, 255, 1); /* Bright dodger blue background */
+    color: #000; /* Black text */
+  }
+  

@@ -16,26 +16,12 @@ const categories = [
   'Revered Spirit Ashes'
 ];
 
-const tags = ['spoiler', 'boss', 'quest', 'missable'];
-
 function Filter({ filters, onFilterChange }) {
   const handleCategoryToggle = (category) => {
     const newSelectedCategories = { ...filters.selectedCategories };
     newSelectedCategories[category] = !newSelectedCategories[category];
 
     onFilterChange({ ...filters, selectedCategories: newSelectedCategories });
-  };
-
-  const handleTagToggle = (tag) => {
-    const newSelectedTags = [...filters.selectedTags];
-    if (newSelectedTags.includes(tag)) {
-      const index = newSelectedTags.indexOf(tag);
-      newSelectedTags.splice(index, 1);
-    } else {
-      newSelectedTags.push(tag);
-    }
-
-    onFilterChange({ ...filters, selectedTags: newSelectedTags });
   };
 
   const handleSelectAll = () => {
@@ -69,17 +55,6 @@ function Filter({ filters, onFilterChange }) {
           {category}
         </div>
       ))}
-      <div className="tags">
-        {tags.map((tag) => (
-          <button
-            key={tag}
-            className={`tag-button ${filters.selectedTags.includes(tag) ? 'active' : ''}`}
-            onClick={() => handleTagToggle(tag)}
-          >
-            {tag.charAt(0).toUpperCase() + tag.slice(1)}
-          </button>
-        ))}
-      </div>
       <div
         className={`checkbox-container ${filters.showChecked ? 'checked' : ''}`}
         onClick={() => onFilterChange({ ...filters, showChecked: !filters.showChecked })}

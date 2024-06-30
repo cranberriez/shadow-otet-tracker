@@ -4,6 +4,7 @@ import Filter from './components/Filter';
 import ItemList from './components/ItemList';
 import ItemCounter from './components/ItemCounter';
 import ScrollToTopButton from './components/ScrollToTopButton';
+import SearchBar from './components/SearchBar';
 import { useItems } from './hooks/useItems';
 
 const initialSelectedCategories = {
@@ -29,6 +30,8 @@ function App() {
     showScroll,
     handleCheck,
     handleFilterChange,
+    handleSearchChange,
+    handleTagFilterChange,
     filteredItems,
     scrollToTop,
     counts,
@@ -42,10 +45,18 @@ function App() {
         <Filter filters={filters} onFilterChange={handleFilterChange} />
       </div>
       <div className="content">
-        <div className="counters">
-          {Object.keys(counts).map((category) => (
-            <ItemCounter key={category} category={category} count={counts[category]} />
-          ))}
+        <div className="fixed-container">
+          <SearchBar 
+            filters={filters} 
+            onFilterChange={handleFilterChange} 
+            onSearchChange={handleSearchChange} 
+            onTagFilterChange={handleTagFilterChange} 
+          />
+          <div className="counters">
+            {Object.keys(counts).map((category) => (
+              <ItemCounter key={category} category={category} count={counts[category]} />
+            ))}
+          </div>
         </div>
         {!isAnyCategorySelected && <p className="no-category-message">Select an Item Category on the Left</p>}
         {isAnyCategorySelected && (

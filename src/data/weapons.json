@@ -978,7 +978,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/sword_of_light_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 294,
-        "tags": []
+        "tags": [
+            "missable"
+        ]
     },
     {
         "category": "Weapons",
@@ -989,7 +991,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/sword_of_darkness_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 295,
-        "tags": []
+        "tags": [
+            "missable"
+        ]
     },
     {
         "category": "Weapons",
