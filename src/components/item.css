@@ -1,23 +1,27 @@
 /* Item.css */
 .item {
-	display: flex;
-	align-items: center;
-	margin-bottom: 10px;
-	padding: 10px;
-	border: 1px solid #444; /* Dark border */
-	background-color: #1e1e1e; /* Slightly lighter dark background */
-	border-radius: 8px; /* Rounded edges for the item container */
-	position: relative; /* For positioning the tags */
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #444;
+    /* Dark border */
+    background-color: #1e1e1e;
+    /* Slightly lighter dark background */
+    border-radius: 8px;
+    /* Rounded edges for the item container */
+    position: relative;
+    /* For positioning the tags */
 }
 
 .item-left,
 .item-right {
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .item-left {
-	margin-right: 10px;
+    margin-right: 10px;
     width: 60%;
 }
 
@@ -26,186 +30,208 @@
 }
 
 .item input[type="checkbox"] {
-	position: relative;
-	width: 30px; /* Increased width */
-	height: 30px; /* Increased height */
+    position: relative;
+    width: 30px;
+    /* Increased width */
+    height: 30px;
+    /* Increased height */
     min-width: 30px;
     min-height: 30px;
-	margin-right: 20px;
-	margin-left: 5px;
-	cursor: pointer;
-	appearance: none;
-	background-color: #333;
-	border: 1px solid #666;
-	border-radius: 4px;
-	outline: none;
+    margin-right: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+    appearance: none;
+    background-color: #333;
+    border: 1px solid #666;
+    border-radius: 4px;
+    outline: none;
 }
 
 .item input[type="checkbox"]:checked::before {
-	content: "✔";
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: #fff;
-	font-size: 18px; /* Adjusted font size for the larger checkbox */
+    content: "✔";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 18px;
+    /* Adjusted font size for the larger checkbox */
 }
 
 .item.checked {
-	border: 1px solid #8FBC8F; /* Light green border when checked */
+    border: 1px solid #8FBC8F;
+    /* Light green border when checked */
 }
 
 .item.spoiler {
-	border: 1px dashed gold; /* Golden dashed border for spoilers */
+    border: 1px dashed gold;
+    /* Golden dashed border for spoilers */
 }
 
 .item.quest {
-	border: 1px dashed lightblue; /* Light blue dashed border for quest items */
+    border: 1px dashed lightblue;
+    /* Light blue dashed border for quest items */
 }
 
 .item.boss {
-	border: 1px dashed red; /* Dark red dashed border for boss items */
+    border: 1px dashed red;
+    /* Dark red dashed border for boss items */
 }
 
 .item.missable {
-	border: 1px dashed lightblue; /* Light blue dashed border for missable items */
+    border: 1px dashed lightblue;
+    /* Light blue dashed border for missable items */
 }
 
 .item label {
-	flex: 0.5;
+    flex: 0.5;
     min-width: 200px;
-	color: #e0e0e0;
+    color: #e0e0e0;
 }
 
 .image-container {
-	position: relative;
-	display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .item .item-link-icon {
-	margin-left: 10px;
-	margin-right: 10px;
-	color: #fff;
-	font-size: 20px; /* Larger size */
-	vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 20px;
+    /* Larger size */
+    vertical-align: middle;
 }
 
 .item .item-image {
-	width: 80px; /* Adjust size as needed to make the images larger */
-	height: auto;
-	margin-right: 10px;
-	background-color: #2e2e2e; /* Gray background */
-	border: 1px solid #444; /* Dark border */
-	border-radius: 5px; /* Rounded edges */
+    width: 80px;
+    /* Adjust size as needed to make the images larger */
+    height: auto;
+    margin-right: 10px;
+    background-color: #2e2e2e;
+    /* Gray background */
+    border: 1px solid #444;
+    /* Dark border */
+    border-radius: 5px;
+    /* Rounded edges */
 }
 
 .item .item-text {
-	flex: 1; /* Reduce space to fit better with set pieces */
-	font-size: 0.9em;
-	margin-left: 10px;
-	color: #e0e0e0;
+    flex: 1;
+    /* Reduce space to fit better with set pieces */
+    font-size: 0.9em;
+    margin-left: 10px;
+    color: #e0e0e0;
 }
 
 .sub-category {
-	font-size: 0.8em;
-	color: #666;
+    font-size: 0.8em;
+    color: #666;
     font-weight: bold;
-	top: 10px;
+    top: 10px;
     left: 15px;
     position: absolute;
 }
 
 .item-pieces {
-	display: flex;
-	flex-direction: column;
-	width: 100%; /* Ensure set pieces take up the full space of the right column */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* Ensure set pieces take up the full space of the right column */
 }
 
 .item-piece {
-	display: flex;
-	align-items: center;
-	margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
 }
 
 .item-piece input[type="checkbox"] {
-	position: relative;
-	width: 20px;
-	height: 20px;
-	margin-right: 15px;
-	cursor: pointer;
-	appearance: none;
-	background-color: #333;
-	border: 1px solid #666;
-	border-radius: 4px;
-	outline: none;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+    appearance: none;
+    background-color: #333;
+    border: 1px solid #666;
+    border-radius: 4px;
+    outline: none;
 }
 
 .item-piece input[type="checkbox"]:checked::before {
-	content: "✔";
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: #fff;
-	font-size: 12px;
+    content: "✔";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 12px;
 }
 
 .item-piece label {
-	flex: 1; /* Adjust size as needed */
-	color: #e0e0e0;
+    flex: 1;
+    /* Adjust size as needed */
+    color: #e0e0e0;
     padding: 5px 0;
 }
 
 .item-piece .item-link-icon {
-	margin-left: 10px;
-	margin-right: 10px;
-	color: #fff;
-	font-size: 16px; /* Larger size */
-	vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 16px;
+    /* Larger size */
+    vertical-align: middle;
 }
 
 .item-piece .item-image {
-	width: 30px; /* Adjust size as needed */
-	height: auto;
-	margin-right: 5px;
-	background-color: #2e2e2e; /* Gray background */
-	border: 1px solid #444; /* Dark border */
-	border-radius: 5px; /* Rounded edges */
+    width: 30px;
+    /* Adjust size as needed */
+    height: auto;
+    margin-right: 5px;
+    background-color: #2e2e2e;
+    /* Gray background */
+    border: 1px solid #444;
+    /* Dark border */
+    border-radius: 5px;
+    /* Rounded edges */
 }
 
 .item-piece .item-text {
-	flex: 4;
-	font-size: 0.8em;
-	margin-left: 5px;
-	color: #e0e0e0;
+    flex: 4;
+    font-size: 0.8em;
+    margin-left: 5px;
+    color: #e0e0e0;
 }
 
 @media (max-width: 768px) {
-	.item {
-		flex-direction: column;
-		align-items: flex-start;
-	}
+    .item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-	.item-left,
-	.item-right,
-	.item-piece {
-		width: 100%;
-	}
+    .item-left,
+    .item-right,
+    .item-piece {
+        width: 100%;
+    }
 
-	.item-right {
-		margin-top: 10px;
-	}
+    .item-right {
+        margin-top: 10px;
+    }
 
-	.item-piece {
-		display: block;
-	}
+    .item-piece {
+        display: block;
+    }
 
-	.item input[type="checkbox"] {
-		margin-right: 35px;
-		margin-left: 15px;
-		transform: scale(2); /* Makes the checkbox twice its current size */
-		cursor: pointer;
-	}
+    .item input[type="checkbox"] {
+        margin-right: 35px;
+        margin-left: 15px;
+        transform: scale(2);
+        /* Makes the checkbox twice its current size */
+        cursor: pointer;
+    }
 }
 
 .tags {
@@ -220,21 +246,26 @@
     padding: 2px 5px;
     font-size: 0.8em;
     border-radius: 3px;
-    color: black; /* Dark text color for better contrast */
+    color: black;
+    /* Dark text color for better contrast */
 }
 
 .boss-tag {
-    background-color: rgba(201, 0, 0, 0.7); /* Dark red background with some transparency */
+    background-color: rgba(201, 0, 0, 0.7);
+    /* Dark red background with some transparency */
 }
 
 .quest-tag {
-    background-color: rgba(0, 191, 255, 0.7); /* Light blue background with some transparency */
+    background-color: rgba(0, 191, 255, 0.7);
+    /* Light blue background with some transparency */
 }
 
 .missable-tag {
-    background-color: rgba(30, 144, 255, 0.7); /* Dodger blue background with some transparency */
+    background-color: rgba(30, 144, 255, 0.7);
+    /* Dodger blue background with some transparency */
 }
 
 .spoiler-tag {
-    background-color: rgba(218, 165, 32, 0.7); /* Golden background with some transparency */
+    background-color: rgba(218, 165, 32, 0.7);
+    /* Golden background with some transparency */
 }

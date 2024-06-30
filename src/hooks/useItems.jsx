@@ -13,176 +13,176 @@ import reveredData from '../data/revered_spirit_ashes.json';
 import scadutreeData from '../data/scadutree_fragments.json';
 
 export const useItems = (initialSelectedCategories) => {
-  const [items, setItems] = useState([]);
-  const [checkedItems, setCheckedItems] = useState({});
-  const [filters, setFilters] = useState({
-    selectedCategories: initialSelectedCategories,
-    selectedTags: [],
-    showChecked: true,
-    showSpoilers: false
-  });
-  const [searchQuery, setSearchQuery] = useState('');
-  const [showScroll, setShowScroll] = useState(false);
-
-  useEffect(() => {
-    // Combine the data from all JSON files
-    const combinedData = [
-      ...weaponsData,
-      ...spellsData,
-      ...ashesOfWarData,
-      ...spiritAshesData,
-      ...talismansData,
-      ...tearsData,
-      ...toolsData,
-      ...armorData,
-      ...bellbearingData,
-      ...cookbookData,
-      ...reveredData,
-      ...scadutreeData
-    ];
-    setItems(combinedData);
-
-    // Load checked items from localStorage
-    const storedCheckedItems = JSON.parse(localStorage.getItem('checkedItems')) || {};
-    setCheckedItems(storedCheckedItems);
-
-    // Add scroll event listener
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  useEffect(() => {
-    // Save checked items to localStorage
-    localStorage.setItem('checkedItems', JSON.stringify(checkedItems));
-  }, [checkedItems]);
-
-  const handleScroll = () => {
-    if (window.scrollY > 300) {
-      setShowScroll(true);
-    } else {
-      setShowScroll(false);
-    }
-  };
-
-  const handleCheck = (id) => {
-    setCheckedItems((prevCheckedItems) => {
-      const newCheckedItems = { ...prevCheckedItems, [id]: !prevCheckedItems[id] };
-
-      // If the item is an armor set with pieces
-      const item = items.find(item => item.id === id);
-      if (item && item.pieces && item.pieces.length > 0) {
-        item.pieces.forEach(piece => {
-          newCheckedItems[piece.id] = !prevCheckedItems[id];
-        });
-      }
-
-      return newCheckedItems;
+    const [items, setItems] = useState([]);
+    const [checkedItems, setCheckedItems] = useState({});
+    const [filters, setFilters] = useState({
+        selectedCategories: initialSelectedCategories,
+        selectedTags: [],
+        showChecked: true,
+        showSpoilers: false
     });
-  };
+    const [searchQuery, setSearchQuery] = useState('');
+    const [showScroll, setShowScroll] = useState(false);
 
-  const handleFilterChange = (newFilters) => {
-    setFilters(newFilters);
-  };
+    useEffect(() => {
+        // Combine the data from all JSON files
+        const combinedData = [
+            ...weaponsData,
+            ...spellsData,
+            ...ashesOfWarData,
+            ...spiritAshesData,
+            ...talismansData,
+            ...tearsData,
+            ...toolsData,
+            ...armorData,
+            ...bellbearingData,
+            ...cookbookData,
+            ...reveredData,
+            ...scadutreeData
+        ];
+        setItems(combinedData);
 
-  const handleSearchChange = (query) => {
-    setSearchQuery(query);
-  };
+        // Load checked items from localStorage
+        const storedCheckedItems = JSON.parse(localStorage.getItem('checkedItems')) || {};
+        setCheckedItems(storedCheckedItems);
 
-  const handleTagFilterChange = (tag) => {
-    setFilters((prevFilters) => {
-      const newSelectedTags = prevFilters.selectedTags.includes(tag)
-        ? prevFilters.selectedTags.filter((t) => t !== tag)
-        : [...prevFilters.selectedTags, tag];
-      return { ...prevFilters, selectedTags: newSelectedTags };
-    });
-  };
+        // Add scroll event listener
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
-  const extractNumber = (url) => {
-    if (!url) return 0;
-    const match = url.match(/(\d+)$/);
-    return match ? parseInt(match[1], 10) : 0;
-  };
+    useEffect(() => {
+        // Save checked items to localStorage
+        localStorage.setItem('checkedItems', JSON.stringify(checkedItems));
+    }, [checkedItems]);
 
-  const filteredItems = items
-    .filter(item => {
-      const { selectedCategories, selectedTags, showChecked, showSpoilers } = filters;
-      const isCategorySelected = selectedCategories[item.category];
-      const isSpoiler = item.tags.includes('spoiler');
-      const hasTags = selectedTags.every(tag => item.tags.includes(tag));
-      const matchesSearchQuery = item.name.toLowerCase().includes(searchQuery.toLowerCase());
-
-      if (!isCategorySelected) {
-        return false;
-      }
-      if (!showChecked && checkedItems[item.id]) {
-        return false;
-      }
-      if (!showSpoilers && isSpoiler) {
-        return false;
-      }
-      if (selectedTags.length > 0 && !hasTags) {
-        return false;
-      }
-      if (!matchesSearchQuery) {
-        return false;
-      }
-      return true;
-    })
-    .sort((a, b) => extractNumber(a.url) - extractNumber(b.url));
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  const getCountsByCategory = () => {
-    const counts = {
-      'Weapons': { total: 0, acquired: 0 },
-      'Spells': { total: 0, acquired: 0 },
-      'Ashes of War': { total: 0, acquired: 0 },
-      'Spirit Ashes': { total: 0, acquired: 0 },
-      'Talismans': { total: 0, acquired: 0 },
-      'Tears': { total: 0, acquired: 0 },
-      'Tools': { total: 0, acquired: 0 },
-      'Armor': { total: 0, acquired: 0 },
-      'Bell Bearings': { total: 0, acquired: 0 },
-      'Cookbooks': { total: 0, acquired: 0 },
-      'Revered Spirit Ashes': { total: 0, acquired: 0 },
-      'Scadutree Fragments': { total: 0, acquired: 0 },
+    const handleScroll = () => {
+        if (window.scrollY > 300) {
+            setShowScroll(true);
+        } else {
+            setShowScroll(false);
+        }
     };
 
-    items.forEach(item => {
-      if (item.category !== 'Armor' || (item.pieces && item.pieces.length === 0)) {
-        counts[item.category].total += 1;
-        if (checkedItems[item.id]) {
-          counts[item.category].acquired += 1;
-        }
-      }
-      if (item.pieces && item.pieces.length > 0) {
-        counts[item.category].total += item.pieces.length;
-        item.pieces.forEach(piece => {
-          if (checkedItems[piece.id]) {
-            counts[item.category].acquired += 1;
-          }
+    const handleCheck = (id) => {
+        setCheckedItems((prevCheckedItems) => {
+            const newCheckedItems = { ...prevCheckedItems, [id]: !prevCheckedItems[id] };
+
+            // If the item is an armor set with pieces
+            const item = items.find(item => item.id === id);
+            if (item && item.pieces && item.pieces.length > 0) {
+                item.pieces.forEach(piece => {
+                    newCheckedItems[piece.id] = !prevCheckedItems[id];
+                });
+            }
+
+            return newCheckedItems;
         });
-      }
-    });
+    };
 
-    return counts;
-  };
+    const handleFilterChange = (newFilters) => {
+        setFilters(newFilters);
+    };
 
-  const counts = getCountsByCategory();
+    const handleSearchChange = (query) => {
+        setSearchQuery(query);
+    };
 
-  return {
-    items,
-    checkedItems,
-    filters,
-    showScroll,
-    handleCheck,
-    handleFilterChange,
-    handleSearchChange,
-    handleTagFilterChange,
-    filteredItems,
-    scrollToTop,
-    counts
-  };
+    const handleTagFilterChange = (tag) => {
+        setFilters((prevFilters) => {
+            const newSelectedTags = prevFilters.selectedTags.includes(tag)
+                ? prevFilters.selectedTags.filter((t) => t !== tag)
+                : [...prevFilters.selectedTags, tag];
+            return { ...prevFilters, selectedTags: newSelectedTags };
+        });
+    };
+
+    const extractNumber = (url) => {
+        if (!url) return 0;
+        const match = url.match(/(\d+)$/);
+        return match ? parseInt(match[1], 10) : 0;
+    };
+
+    const filteredItems = items
+        .filter(item => {
+            const { selectedCategories, selectedTags, showChecked, showSpoilers } = filters;
+            const isCategorySelected = selectedCategories[item.category];
+            const isSpoiler = item.tags.includes('spoiler');
+            const hasTags = selectedTags.every(tag => item.tags.includes(tag));
+            const matchesSearchQuery = item.name.toLowerCase().includes(searchQuery.toLowerCase());
+
+            if (!isCategorySelected) {
+                return false;
+            }
+            if (!showChecked && checkedItems[item.id]) {
+                return false;
+            }
+            if (!showSpoilers && isSpoiler) {
+                return false;
+            }
+            if (selectedTags.length > 0 && !hasTags) {
+                return false;
+            }
+            if (!matchesSearchQuery) {
+                return false;
+            }
+            return true;
+        })
+        .sort((a, b) => extractNumber(a.url) - extractNumber(b.url));
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    const getCountsByCategory = () => {
+        const counts = {
+            'Weapons': { total: 0, acquired: 0 },
+            'Spells': { total: 0, acquired: 0 },
+            'Ashes of War': { total: 0, acquired: 0 },
+            'Spirit Ashes': { total: 0, acquired: 0 },
+            'Talismans': { total: 0, acquired: 0 },
+            'Tears': { total: 0, acquired: 0 },
+            'Tools': { total: 0, acquired: 0 },
+            'Armor': { total: 0, acquired: 0 },
+            'Bell Bearings': { total: 0, acquired: 0 },
+            'Cookbooks': { total: 0, acquired: 0 },
+            'Revered Spirit Ashes': { total: 0, acquired: 0 },
+            'Scadutree Fragments': { total: 0, acquired: 0 },
+        };
+
+        items.forEach(item => {
+            if (item.category !== 'Armor' || (item.pieces && item.pieces.length === 0)) {
+                counts[item.category].total += 1;
+                if (checkedItems[item.id]) {
+                    counts[item.category].acquired += 1;
+                }
+            }
+            if (item.pieces && item.pieces.length > 0) {
+                counts[item.category].total += item.pieces.length;
+                item.pieces.forEach(piece => {
+                    if (checkedItems[piece.id]) {
+                        counts[item.category].acquired += 1;
+                    }
+                });
+            }
+        });
+
+        return counts;
+    };
+
+    const counts = getCountsByCategory();
+
+    return {
+        items,
+        checkedItems,
+        filters,
+        showScroll,
+        handleCheck,
+        handleFilterChange,
+        handleSearchChange,
+        handleTagFilterChange,
+        filteredItems,
+        scrollToTop,
+        counts
+    };
 };

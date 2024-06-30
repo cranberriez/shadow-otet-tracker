@@ -1,54 +1,61 @@
 /* App.css */
 .App {
     display: flex;
-    background-color: #121212; /* Dark background */
-    color: #e0e0e0; /* Light text color */
+    background-color: #121212;
+    /* Dark background */
+    color: #e0e0e0;
+    /* Light text color */
     font-family: Arial, sans-serif;
     height: 100vh;
-  }
-  
-  .sidebar {
+}
+
+.sidebar {
     width: 250px;
-    background-color: #1e1e1e; /* Slightly lighter dark background */
+    background-color: #1e1e1e;
+    /* Slightly lighter dark background */
     padding: 20px;
     display: flex;
     flex-direction: column;
-  }
-  
-  .content {
+}
+
+.content {
     flex: 1;
     padding: 0 20px 20px;
-    margin-top: 60px; /* Ensure space for the fixed search bar and counters */
+    margin-top: 60px;
+    /* Ensure space for the fixed search bar and counters */
     overflow-y: auto;
     position: relative;
-  }
-  
-  .fixed-container {
+}
+
+.fixed-container {
     position: fixed;
     top: 0;
-    width: calc(100% - 348px); /* Adjust width considering the sidebar */
-    background-color: #121212; /* Dark background to match content */
+    width: calc(100% - 348px);
+    /* Adjust width considering the sidebar */
+    background-color: #121212;
+    /* Dark background to match content */
     padding: 10px 0;
-    z-index: 1; /* Ensure fixed container is above the content */
+    z-index: 1;
+    /* Ensure fixed container is above the content */
     display: flex;
     flex-direction: column;
-  }
-  
-  .counters {
+}
+
+.counters {
     display: flex;
     justify-content: flex-start;
     padding: 10px 0;
-  }
-  
-  .counter {
+}
+
+.counter {
     margin-right: 10px;
     padding: 5px 10px;
     background-color: #333;
     border: 1px solid #444;
     border-radius: 5px;
-  }
-  
-  .scroll-to-top {
+}
+
+.scroll-to-top {
     position: fixed;
     bottom: 20px;
     left: 50%;
@@ -60,30 +67,36 @@
     cursor: pointer;
     border-radius: 5px;
     font-size: 16px;
-    display: none; /* Initially hidden */
-  }
-  
-  .scroll-to-top.show {
-    display: block; /* Show when the user scrolls down */
-  }
-  
-  @media (max-width: 768px) {
+    display: none;
+    /* Initially hidden */
+}
+
+.scroll-to-top.show {
+    display: block;
+    /* Show when the user scrolls down */
+}
+
+@media (max-width: 768px) {
     .App {
-      flex-direction: column;
+        flex-direction: column;
     }
+
     .sidebar {
-      width: 100%;
-      flex-direction: row;
-      overflow-x: auto;
-      background-color: #1e1e1e;
-      padding: 10px 0;
+        width: 100%;
+        flex-direction: row;
+        overflow-x: auto;
+        background-color: #1e1e1e;
+        padding: 10px 0;
     }
+
     .content {
-      padding: 10px;
+        padding: 10px;
     }
+
     .counters {
-      width: 100%; /* Adjust width for mobile view */
-      top: 50px; /* Adjust top position to not overlap with the sidebar */
+        width: 100%;
+        /* Adjust width for mobile view */
+        top: 50px;
+        /* Adjust top position to not overlap with the sidebar */
     }
-  }
-  
+}
