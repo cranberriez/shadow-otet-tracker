@@ -31,7 +31,9 @@
 }
 
 .checkbox-container {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+
     margin-bottom: 10px;
     padding: 10px 20px;
     border: 1px solid #444;
@@ -39,6 +41,10 @@
     background-color: #333;
     color: #e0e0e0;
     /* Light color when not selected */
+}
+
+.checkbox-container p {
+    margin: 0;
 }
 
 .checkbox-container.checked {

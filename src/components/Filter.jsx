@@ -52,7 +52,8 @@ function Filter({ filters, onFilterChange, counts }) {
                     className={`checkbox-container ${filters.selectedCategories[category] ? 'checked' : ''}`}
                     onClick={() => handleCategoryToggle(category)}
                 >
-                    {category} {counts[category].acquired} / {counts[category].total}
+                    <p>{category}</p>
+                    <p>{counts[category].acquired} / {counts[category].total}</p>
                 </div>
             ))}
             <div
