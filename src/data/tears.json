@@ -7,7 +7,8 @@
         "location_text": "Dropped by Furnace Golem in Ellac River",
         "spoiler": false,
         "image": "/file/Elden-Ring/viridian_hidden_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 199
+        "id": 199,
+        "tags": []
     },
     {
         "category": "Tears",
@@ -17,7 +18,8 @@
         "location_text": "Dropped by Furnace Golem in the camp south of Shadow Keep",
         "spoiler": false,
         "image": "/file/Elden-Ring/crimsonburst_dried_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 200
+        "id": 200,
+        "tags": []
     },
     {
         "category": "Tears",
@@ -27,7 +29,8 @@
         "location_text": "Dropped by Furnace Golem in west Rauh Ancient Ruins",
         "spoiler": false,
         "image": "/file/Elden-Ring/crimson-sapping_cracked_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 201
+        "id": 201,
+        "tags": []
     },
     {
         "category": "Tears",
@@ -37,7 +40,8 @@
         "location_text": "Dropped by Furnace Golem east of Cathedral of Manus Metyr",
         "spoiler": false,
         "image": "/file/Elden-Ring/cerulean-sapping_cracked_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 202
+        "id": 202,
+        "tags": []
     },
     {
         "category": "Tears",
@@ -47,7 +51,8 @@
         "location_text": "Dropped by Furnace Golem in Ruins of Unte",
         "spoiler": false,
         "image": "/file/Elden-Ring/oil-soaked_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 203
+        "id": 203,
+        "tags": []
     },
     {
         "category": "Tears",
@@ -57,7 +62,8 @@
         "location_text": "Droped by Furnace Golem in Ruins of Unte that needs to be woken",
         "spoiler": false,
         "image": "/file/Elden-Ring/bloodsucking_cracked_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 204
+        "id": 204,
+        "tags": []
     },
     {
         "category": "Tears",
@@ -67,7 +73,8 @@
         "location_text": "Dropped by Furnace Golem in Charo's Hidden Grave",
         "spoiler": false,
         "image": "/file/Elden-Ring/glovewort_crystal_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 205
+        "id": 205,
+        "tags": []
     },
     {
         "category": "Tears",
@@ -77,6 +84,7 @@
         "location_text": "Dropped by Furnace Golem in Gravesite Plains",
         "spoiler": false,
         "image": "/file/Elden-Ring/deflecting_hardtear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 206
+        "id": 206,
+        "tags": []
     }
 ]

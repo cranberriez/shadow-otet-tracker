@@ -7,7 +7,8 @@
         "location_text": "Found in Fog Rift Catacombs",
         "spoiler": false,
         "image": "/file/Elden-Ring/death_knights_twin_axes_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 211
+        "id": 211,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -17,7 +18,8 @@
         "location_text": "Dropped from Imps wielding it",
         "spoiler": false,
         "image": "/file/Elden-Ring/forked-tongue_hatchet_unique_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 212
+        "id": 212,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -27,7 +29,8 @@
         "location_text": "Shadow Keep near initial site of grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/smithscript_axe_axes_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 213
+        "id": 213,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -37,7 +40,8 @@
         "location_text": "Dropped by Messmer Soldiers",
         "spoiler": false,
         "image": "/file/Elden-Ring/messmer_soldiers_axe_axes_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 214
+        "id": 214,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -47,7 +51,8 @@
         "location_text": "Beside a coffin in Gravesite Plain",
         "spoiler": false,
         "image": "/file/Elden-Ring/backhand_blade_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 215
+        "id": 215,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -57,7 +62,8 @@
         "location_text": "Can be found in the Ruined Forge Starfall Past",
         "spoiler": false,
         "image": "/file/Elden-Ring/smithscript_cirque_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 216
+        "id": 216,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -67,7 +73,8 @@
         "location_text": "Drops from Curseblade enemies who wield it",
         "spoiler": false,
         "image": "/file/Elden-Ring/curseblades_cirque_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 217
+        "id": 217,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -77,7 +84,8 @@
         "location_text": "Found at the top of Rabbath's Rise",
         "spoiler": false,
         "image": "/file/Elden-Ring/rabbaths_cannon_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 218
+        "id": 218,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -87,7 +95,10 @@
         "location_text": "Dropped by Swordhand of Night Anna under Catherdral of Manus Metyr",
         "spoiler": true,
         "image": "/file/Elden-Ring/claws_of_night_unique_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 219
+        "id": 219,
+        "tags": [
+            "spoiler"
+        ]
     },
     {
         "category": "Weapons",
@@ -97,7 +108,8 @@
         "location_text": "Dropped by Red Bear in Northern Nameless Mausoleum",
         "spoiler": false,
         "image": "/file/Elden-Ring/red_bears_claw_beast_claws_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 220
+        "id": 220,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -107,7 +119,8 @@
         "location_text": "Drops from NPC Southeast of Gravesite Plains Site of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/beast_claw_beast_claws_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 221
+        "id": 221,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -117,7 +130,10 @@
         "location_text": "Dropped from Ansbach",
         "spoiler": true,
         "image": "/file/Elden-Ring/ansbachs_longbow_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 222
+        "id": 222,
+        "tags": [
+            "spoiler"
+        ]
     },
     {
         "category": "Weapons",
@@ -127,7 +143,8 @@
         "location_text": "Drop from Fire Knights",
         "spoiler": false,
         "image": "/file/Elden-Ring/fire_knights_greatsword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 223
+        "id": 223,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -137,7 +154,8 @@
         "location_text": "Found at the end of Ruined Forge Starfall Past",
         "spoiler": false,
         "image": "/file/Elden-Ring/ancient_meteoric_ore_greatsword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 224
+        "id": 224,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -147,7 +165,11 @@
         "location_text": "Reward from Remembrance of a God and a Lord",
         "spoiler": true,
         "image": "/file/Elden-Ring/greatsword_of_radahn_(lord)_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 225
+        "id": 225,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Weapons",
@@ -157,7 +179,11 @@
         "location_text": "Reward from Remembrance of a God and a Lord",
         "spoiler": true,
         "image": "/file/Elden-Ring/greatsword_of_radahn_(light)_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 226
+        "id": 226,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Weapons",
@@ -167,7 +193,8 @@
         "location_text": "Dropped from NPC Moonrithyll, Carrian Knight",
         "spoiler": false,
         "image": "/file/Elden-Ring/troll_knights_sword_colossal_swords_elden_ring_wiki_guide_200px.png",
-        "id": 227
+        "id": 227,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -177,7 +204,8 @@
         "location_text": "Found in a cave west of Taylew's Ruined Forge Site of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/bloodfiends_arm_colossal_weapon_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 228
+        "id": 228,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -187,7 +215,8 @@
         "location_text": "Found at the end of Ruined Forge Lava Intake",
         "spoiler": false,
         "image": "/file/Elden-Ring/anvil_hammer_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 229
+        "id": 229,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -197,7 +226,8 @@
         "location_text": "Dropped from a Crucible Knight near Rauh Ancient Ruins, East Site of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/devonias_hammer_unique_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 230
+        "id": 230,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -207,7 +237,11 @@
         "location_text": "Reward from Remembrance of the Shadow Sunflower",
         "spoiler": true,
         "image": "/file/Elden-Ring/shadow_sunflower_blossom_colossal_weapon_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 231
+        "id": 231,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Weapons",
@@ -217,7 +251,11 @@
         "location_text": "Reward from Remembrance of the Mother of Fingers",
         "spoiler": true,
         "image": "/file/Elden-Ring/gazing_finger_colossal_weapon_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 232
+        "id": 232,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Weapons",
@@ -227,7 +265,8 @@
         "location_text": "Found on a corpse north of Fort of Reprimand",
         "spoiler": false,
         "image": "/file/Elden-Ring/repeating_crossbow_crossbow_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 233
+        "id": 233,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -237,7 +276,8 @@
         "location_text": "Found on a body near Ellac Greatbridge",
         "spoiler": false,
         "image": "/file/Elden-Ring/spread_crossbow_crossbow_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 234
+        "id": 234,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -247,7 +287,8 @@
         "location_text": "Dropped by Horned Warriors wielding it",
         "spoiler": false,
         "image": "/file/Elden-Ring/horned_warriors_greatsword_curved_greatsword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 235
+        "id": 235,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -257,7 +298,10 @@
         "location_text": "Found near Storehouse, Seventh Floor Site of Grace after she leaves",
         "spoiler": true,
         "image": "/file/Elden-Ring/freyjas_greatsword_greatsword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 236
+        "id": 236,
+        "tags": [
+            "spoiler"
+        ]
     },
     {
         "category": "Weapons",
@@ -267,7 +311,8 @@
         "location_text": "Found on a corpse between Cerulean Cost West Site of Grace and Cerulean Coast Site of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/spirit_sword_1_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 237
+        "id": 237,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -277,7 +322,8 @@
         "location_text": "Dropped by Hornsent after invading Leda",
         "spoiler": false,
         "image": "/file/Elden-Ring/falx_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 238
+        "id": 238,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -287,7 +333,8 @@
         "location_text": "Dropped by Dancer of Ranah in Southern Nameless Mausoleum",
         "spoiler": false,
         "image": "/file/Elden-Ring/dancing_blade_of_ranah_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 239
+        "id": 239,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -297,7 +344,8 @@
         "location_text": "Dropped from Horned Warriors wielding it",
         "spoiler": false,
         "image": "/file/Elden-Ring/horned_warriors_sword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 240
+        "id": 240,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -307,7 +355,8 @@
         "location_text": "Found on a body in Shadow Keep",
         "spoiler": false,
         "image": "/file/Elden-Ring/main-gauche_dagger_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 241
+        "id": 241,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -317,7 +366,8 @@
         "location_text": "Found on a body in the Church of Benediction",
         "spoiler": false,
         "image": "/file/Elden-Ring/pata_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 242
+        "id": 242,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -327,7 +377,8 @@
         "location_text": "Found in Taylew's Ruined Forge",
         "spoiler": false,
         "image": "/file/Elden-Ring/golem_fist_fist_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 243
+        "id": 243,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -337,7 +388,11 @@
         "location_text": "Looted from Thiollier after completing his quest and beating the final boss",
         "spoiler": true,
         "image": "/file/Elden-Ring/thiolliers_hidden_needle_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 244
+        "id": 244,
+        "tags": [
+            "spoiler",
+            "quest"
+        ]
     },
     {
         "category": "Weapons",
@@ -347,7 +402,8 @@
         "location_text": "Found on a corpse in the poison in Belurat",
         "spoiler": false,
         "image": "/file/Elden-Ring/poisoned_hand_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 245
+        "id": 245,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -357,7 +413,8 @@
         "location_text": "Dropped by Madding Hand south of Woodland Trails Site of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/madding_hand_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 246
+        "id": 246,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -367,7 +424,8 @@
         "location_text": "Found in a chest in Fog Rift Fort",
         "spoiler": false,
         "image": "/file/Elden-Ring/serpent_flail_flails_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 247
+        "id": 247,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -377,7 +435,11 @@
         "location_text": "Reward from Remembrance of the Mother of Fingers",
         "spoiler": true,
         "image": "/file/Elden-Ring/staff_of_the_great_beyond_glintstone_staff_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 248
+        "id": 248,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Weapons",
@@ -387,7 +449,10 @@
         "location_text": "Dropped from Count Ymir, Mother of Fingers",
         "spoiler": true,
         "image": "/file/Elden-Ring/dryleaf_seal_glinstone_staff_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 249
+        "id": 249,
+        "tags": [
+            "spoiler"
+        ]
     },
     {
         "category": "Weapons",
@@ -397,7 +462,11 @@
         "location_text": "Reward from Remembrance of Putrescence",
         "spoiler": true,
         "image": "/file/Elden-Ring/putrescence_cleaver_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 250
+        "id": 250,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Weapons",
@@ -407,7 +476,8 @@
         "location_text": "Dropped from Death Knight in Scorpion River Catacombs",
         "spoiler": false,
         "image": "/file/Elden-Ring/death_knights_longhaft_axe_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 251
+        "id": 251,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -417,7 +487,8 @@
         "location_text": "Outside a house in Bonny Village",
         "spoiler": false,
         "image": "/file/Elden-Ring/bonny_butchering_knife_greataxe_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 252
+        "id": 252,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -427,7 +498,10 @@
         "location_text": "Defeat Igon in Gravesite Plain",
         "spoiler": true,
         "image": "/file/Elden-Ring/igons_greatbow_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 253
+        "id": 253,
+        "tags": [
+            "spoiler"
+        ]
     },
     {
         "category": "Weapons",
@@ -437,7 +511,8 @@
         "location_text": "Chance to be dropped from Black Knight Enemies",
         "spoiler": false,
         "image": "/file/Elden-Ring/black_steel_greathammer_great_hammer_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 254
+        "id": 254,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -447,7 +522,8 @@
         "location_text": "Found near the West exit of Shadow Keep",
         "spoiler": false,
         "image": "/file/Elden-Ring/smithscript_greathammer_great_hammer_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 255
+        "id": 255,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -457,7 +533,8 @@
         "location_text": "Found next to Ghostflame Dragon in Gravesite Plains",
         "spoiler": false,
         "image": "/file/Elden-Ring/great_katana_great_katana_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 256
+        "id": 256,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -467,7 +544,8 @@
         "location_text": "Dropped by Ancient Dragon-Man in Dragon's Pit",
         "spoiler": false,
         "image": "/file/Elden-Ring/dragon-hunters_great_katana_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 257
+        "id": 257,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -477,7 +555,8 @@
         "location_text": "Dropped by Rakshasa om Easterm Nameless Mausoleum",
         "spoiler": false,
         "image": "/file/Elden-Ring/rakshasas_great_katana_great_katana_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 258
+        "id": 258,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -487,7 +566,8 @@
         "location_text": "Dropped by spear wielding Bloodfiends",
         "spoiler": false,
         "image": "/file/Elden-Ring/bloodfiends_sacred_spear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 259
+        "id": 259,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -497,7 +577,8 @@
         "location_text": "Dropped by Messmer Soldiers",
         "spoiler": false,
         "image": "/file/Elden-Ring/messmer_soldiers_spear_spears_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 260
+        "id": 260,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -507,7 +588,11 @@
         "location_text": "Reward from Remembrance of the Impaler",
         "spoiler": true,
         "image": "/file/Elden-Ring/spear_of_the_impaler_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 261
+        "id": 261,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Weapons",
@@ -517,7 +602,10 @@
         "location_text": "Dropped from Jori Elder Inquisitor",
         "spoiler": true,
         "image": "/file/Elden-Ring/barbed_staff-spear_spears_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 262
+        "id": 262,
+        "tags": [
+            "spoiler"
+        ]
     },
     {
         "category": "Weapons",
@@ -527,7 +615,8 @@
         "location_text": "Dropped from imps in the Scorpion River Catacombs",
         "spoiler": false,
         "image": "/file/Elden-Ring/lizard_greatsword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 263
+        "id": 263,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -537,7 +626,11 @@
         "location_text": "Reward from Remembrance of the Lord of Frenzied Flame",
         "spoiler": true,
         "image": "/file/Elden-Ring/greatsword_of_damnation_greatsword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 264
+        "id": 264,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Weapons",
@@ -547,7 +640,8 @@
         "location_text": "Dropped from Blackgaol Knight in Western Nameless Mausoleum",
         "spoiler": false,
         "image": "/file/Elden-Ring/greatsword_of_solitude_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 265
+        "id": 265,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -557,7 +651,8 @@
         "location_text": "Found in grave north of Charo's Hidden Grave",
         "spoiler": false,
         "image": "/file/Elden-Ring/spirit_glaive_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 266
+        "id": 266,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -567,7 +662,11 @@
         "location_text": "Reward from Remembrance of the Saint of the Bud",
         "spoiler": true,
         "image": "/file/Elden-Ring/poleblade_of_the_bud_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 267
+        "id": 267,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Weapons",
@@ -577,7 +676,8 @@
         "location_text": "Reward from Grand Altar of Dragon Communion after defeating Bayle",
         "spoiler": false,
         "image": "/file/Elden-Ring/flowerstone_gavel_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 268
+        "id": 268,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -587,7 +687,8 @@
         "location_text": "Obtained after defeating Dryleaf Dane",
         "spoiler": false,
         "image": "/file/Elden-Ring/dryleaf_arts_hand-to-hand_arts_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 269
+        "id": 269,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -597,7 +698,10 @@
         "location_text": "Drop from Dryleaf Dane at Moorth Ruins",
         "spoiler": true,
         "image": "/file/Elden-Ring/danes_footwork_hand-to-hand_arts_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 270
+        "id": 270,
+        "tags": [
+            "spoiler"
+        ]
     },
     {
         "category": "Weapons",
@@ -607,7 +711,11 @@
         "location_text": "Reward from Remembrance of the Wild Boar Rider",
         "spoiler": true,
         "image": "/file/Elden-Ring/sword_lance_heavy_thrusting_sword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 271
+        "id": 271,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Weapons",
@@ -617,7 +725,8 @@
         "location_text": "Use Iris of Occultation on NPC in Prayer Room",
         "spoiler": false,
         "image": "/file/Elden-Ring/queeligns_greatsword_heavy_thrusting_sword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 272
+        "id": 272,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -627,7 +736,8 @@
         "location_text": "Dropped by Demi-Human queen Marigga",
         "spoiler": false,
         "image": "/file/Elden-Ring/star-lined_sword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 273
+        "id": 273,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -637,7 +747,10 @@
         "location_text": "Give Jolan Iris of Occultation after defeating Ymir",
         "spoiler": true,
         "image": "/file/Elden-Ring/sword_of_night_katana_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 274
+        "id": 274,
+        "tags": [
+            "spoiler"
+        ]
     },
     {
         "category": "Weapons",
@@ -647,7 +760,8 @@
         "location_text": "Found in a tower in Belurat",
         "spoiler": false,
         "image": "/file/Elden-Ring/bone_bow_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 275
+        "id": 275,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -657,7 +771,8 @@
         "location_text": "In a chest on a watchtower in Castle Ensis",
         "spoiler": false,
         "image": "/file/Elden-Ring/milady_light_greatswords_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 276
+        "id": 276,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -667,7 +782,10 @@
         "location_text": "In Enir-Ilim after defeating the followers of Miquella",
         "spoiler": true,
         "image": "/file/Elden-Ring/ledas_sword_light_greatswords_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 277
+        "id": 277,
+        "tags": [
+            "spoiler"
+        ]
     },
     {
         "category": "Weapons",
@@ -677,7 +795,11 @@
         "location_text": "Reward from Remembrance of the Twin Moon Knight",
         "spoiler": true,
         "image": "/file/Elden-Ring/rellanas_twinblade_light_greatswords_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 278
+        "id": 278,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Weapons",
@@ -687,7 +809,8 @@
         "location_text": "Found in a chest near Castle Front Site of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/firespark_perfume_bottle_perfume_bottles_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 279
+        "id": 279,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -697,7 +820,8 @@
         "location_text": "Found in Lamenter's Gaol",
         "spoiler": false,
         "image": "/file/Elden-Ring/chilling_perfume_bottle_perfume_bottles_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 280
+        "id": 280,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -707,7 +831,8 @@
         "location_text": "Found in Abaondoned Church in Abyssal Woods",
         "spoiler": false,
         "image": "/file/Elden-Ring/frenzyflame_perfume_bottle_perfume_bottles_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 281
+        "id": 281,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -717,7 +842,8 @@
         "location_text": "Found on a corpse northeast of Cerulean Coast Site of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/lightning_perfume_bottle_perfume_bottles_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 282
+        "id": 282,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -727,7 +853,8 @@
         "location_text": "Purchase from Thiollier",
         "spoiler": false,
         "image": "/file/Elden-Ring/deadly_poison_perfume_bottle_perfume_bottles_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 283
+        "id": 283,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -737,7 +864,11 @@
         "location_text": "Reward from Sir Ansbach after completing his quest and defeating the final boss",
         "spoiler": true,
         "image": "/file/Elden-Ring/obsidian_lamina_reaper_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 284
+        "id": 284,
+        "tags": [
+            "spoiler",
+            "quest"
+        ]
     },
     {
         "category": "Weapons",
@@ -747,7 +878,8 @@
         "location_text": "Found in a cave on Recluses' River",
         "spoiler": false,
         "image": "/file/Elden-Ring/dryleaf_seal_unique_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 285
+        "id": 285,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -757,7 +889,8 @@
         "location_text": "Found in Shadow Keep after draining the water",
         "spoiler": false,
         "image": "/file/Elden-Ring/fire_knights_seal_unique_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 286
+        "id": 286,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -767,7 +900,8 @@
         "location_text": "Reward for completing \"The Sacred Tower\" Painting Puzzle",
         "spoiler": false,
         "image": "/file/Elden-Ring/spiraltree_seal_unique_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 287
+        "id": 287,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -777,7 +911,8 @@
         "location_text": "Found in Ruined Forge Starfall Past",
         "spoiler": false,
         "image": "/file/Elden-Ring/smithscript_spear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 288
+        "id": 288,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -787,7 +922,8 @@
         "location_text": "Found on the road east from Castle Front Site of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/swift_spear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 289
+        "id": 289,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -797,7 +933,8 @@
         "location_text": "Dropped from Bloodfiends wielding it",
         "spoiler": false,
         "image": "/file/Elden-Ring/bloodfiends_fork_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 290
+        "id": 290,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -807,7 +944,8 @@
         "location_text": "Drop from Fire Knights in Shadow Keep",
         "spoiler": false,
         "image": "/file/Elden-Ring/fire_knights_shortsword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 291
+        "id": 291,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -817,7 +955,8 @@
         "location_text": "Hidden in Stone Coffin Fissure",
         "spoiler": false,
         "image": "/file/Elden-Ring/velvet_sword_of_st_trina_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 292
+        "id": 292,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -827,7 +966,8 @@
         "location_text": "Can be found Fog Rift Catacombs, Ruins of Unte, and Ancient Ruins of Rauh in a Tower",
         "spoiler": false,
         "image": "/file/Elden-Ring/stone-sheathed_sword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 293
+        "id": 293,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -837,7 +977,8 @@
         "location_text": "Raise Stone-Sheathed Sword at the altar in the Ruins of Unte",
         "spoiler": false,
         "image": "/file/Elden-Ring/sword_of_light_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 294
+        "id": 294,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -847,7 +988,8 @@
         "location_text": "Raise Stone-Sheathed Sword at the altar in the Ruins of Rauh",
         "spoiler": false,
         "image": "/file/Elden-Ring/sword_of_darkness_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 295
+        "id": 295,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -857,7 +999,8 @@
         "location_text": "Found in Ruined Forge Lava Intake",
         "spoiler": false,
         "image": "/file/Elden-Ring/smithscript_dagger_throwing_blade_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 296
+        "id": 296,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -867,7 +1010,8 @@
         "location_text": "Found in Shadow Keep near Vulgar Militiamen",
         "spoiler": false,
         "image": "/file/Elden-Ring/dueling_shield_thrusting_shields_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 297
+        "id": 297,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -877,7 +1021,8 @@
         "location_text": "Found in Shadow Keep past the Storehouse Site of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/carian_thrusting_shield_thrusting_shields_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 298
+        "id": 298,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -887,7 +1032,8 @@
         "location_text": "Found in a chest after dropping into Castle Ensis from Scadu Altus",
         "spoiler": false,
         "image": "/file/Elden-Ring/carian_sorcery_sword_thrusting_sword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 299
+        "id": 299,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -897,7 +1043,8 @@
         "location_text": "Found on a balcony in Midra's Manse",
         "spoiler": false,
         "image": "/file/Elden-Ring/nanayas_torch_1_torches_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 300
+        "id": 300,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -907,7 +1054,8 @@
         "location_text": "Found in Lamenter's Gaol",
         "spoiler": false,
         "image": "/file/Elden-Ring/lamenting_visage_torch_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 301
+        "id": 301,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -917,7 +1065,8 @@
         "location_text": "Dropped from Black Knight northeast of Church of the Crusade",
         "spoiler": false,
         "image": "/file/Elden-Ring/black_steel_twinblade_twinblade_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 302
+        "id": 302,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -927,7 +1076,8 @@
         "location_text": "Found in Belurat when accessed from Enir-Ilim",
         "spoiler": false,
         "image": "/file/Elden-Ring/euporia_twinblade_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 303
+        "id": 303,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -937,7 +1087,8 @@
         "location_text": "Found in hut near Bonny Village",
         "spoiler": false,
         "image": "/file/Elden-Ring/tooth_whip_whips_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 304
+        "id": 304,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -947,7 +1098,8 @@
         "location_text": "Found in Taylew's Ruined Forge",
         "spoiler": false,
         "image": "/file/Elden-Ring/smithscript_shield_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 305
+        "id": 305,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -957,7 +1109,8 @@
         "location_text": "Found in Bonny Gaol",
         "spoiler": false,
         "image": "/file/Elden-Ring/shield_of_night_unique_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 306
+        "id": 306,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -967,7 +1120,8 @@
         "location_text": "Given by Redmane Freyja after giving them Letter for Freyja",
         "spoiler": false,
         "image": "/file/Elden-Ring/golden_lion_shield_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 307
+        "id": 307,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -977,7 +1131,8 @@
         "location_text": "Reward for completing \"Incursion\" Painting Puzzle",
         "spoiler": false,
         "image": "/file/Elden-Ring/serpent_crest_shield_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 308
+        "id": 308,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -987,7 +1142,8 @@
         "location_text": "Found in Castle Ensis",
         "spoiler": false,
         "image": "/file/Elden-Ring/wolf_crest_shield_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 309
+        "id": 309,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -997,7 +1153,8 @@
         "location_text": "Drop from Messmer Soldiers",
         "spoiler": false,
         "image": "/file/Elden-Ring/messmer_soldier_shield_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 310
+        "id": 310,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -1007,7 +1164,8 @@
         "location_text": "Dropped by Invader Moore north of Church of the Crusader",
         "spoiler": false,
         "image": "/file/Elden-Ring/verdigris_greatshield_greatshields_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 311
+        "id": 311,
+        "tags": []
     },
     {
         "category": "Weapons",
@@ -1017,6 +1175,7 @@
         "location_text": "Dropped by Black Knight Garrew",
         "spoiler": false,
         "image": "/file/Elden-Ring/black_steel_greatshield_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 312
+        "id": 312,
+        "tags": []
     }
 ]

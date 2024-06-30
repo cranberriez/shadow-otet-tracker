@@ -7,7 +7,8 @@
         "location_text": "Found on a corpse near Ravine North Site of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/aspects_of_the_crucible_bloom_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 98
+        "id": 98,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -17,7 +18,10 @@
         "location_text": "Dropped by the Golden Hippopotamus",
         "spoiler": false,
         "image": "/file/Elden-Ring/aspects_of_the_crucible_thorns_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 99
+        "id": 99,
+        "tags": [
+            "boss"
+        ]
     },
     {
         "category": "Spells",
@@ -27,7 +31,10 @@
         "location_text": "Purchased at Grand Altar of Dragon Communion with Heart of Bayle",
         "spoiler": false,
         "image": "/file/Elden-Ring/bayles_flame_lightning_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 100
+        "id": 100,
+        "tags": [
+            "boss"
+        ]
     },
     {
         "category": "Spells",
@@ -37,7 +44,10 @@
         "location_text": "Purchased at Grand Altar of Dragon Communion with Heart of Bayle",
         "spoiler": false,
         "image": "/file/Elden-Ring/bayles_tyranny_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 101
+        "id": 101,
+        "tags": [
+            "boss"
+        ]
     },
     {
         "category": "Spells",
@@ -47,7 +57,10 @@
         "location_text": "Dropped from Divine Beast Dancing Lion in Ruins of Rauh",
         "spoiler": false,
         "image": "/file/Elden-Ring/divine_beast_tornado_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 102
+        "id": 102,
+        "tags": [
+            "boss"
+        ]
     },
     {
         "category": "Spells",
@@ -57,7 +70,8 @@
         "location_text": "Found northwest of Rauh Ancient Ruins, West Site of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/divine_bird_feathers_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 103
+        "id": 103,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -67,7 +81,12 @@
         "location_text": "Complete Igon, Thiollier, and Dragon Preistess questline in one way (MISSABLE)",
         "spoiler": true,
         "image": "/file/Elden-Ring/dragonbolt_of_florissax_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 104
+        "id": 104,
+        "tags": [
+            "spoiler",
+            "quest",
+            "missable"
+        ]
     },
     {
         "category": "Spells",
@@ -77,7 +96,8 @@
         "location_text": "Found in the Fog Rift Catacombs",
         "spoiler": false,
         "image": "/file/Elden-Ring/electrocharge_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 105
+        "id": 105,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -87,7 +107,8 @@
         "location_text": "Climb up ladder from Storehouse, Backsection Sit of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/fire_serpent_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 106
+        "id": 106,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -97,17 +118,21 @@
         "location_text": "Complete Sir Ansbach's quest",
         "spoiler": false,
         "image": "/file/Elden-Ring/furious_blade_of_ansbach_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 107
+        "id": 107,
+        "tags": [
+            "quest"
+        ]
     },
     {
         "category": "Spells",
         "sub_category": "Incantations",
         "name": "Ghostflame Breath",
         "url": "https://eldenring.wiki.fextralife.com/Ghostflame+Breath",
-        "location_text": "Purchase from Grand Altar of Dragon Communion",
+        "location_text": "Purchase from Grand Altar of Dragon Communion after killing one of the ghost dragons",
         "spoiler": false,
         "image": "/file/Elden-Ring/ghostflame_breath_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 108
+        "id": 108,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -117,7 +142,8 @@
         "location_text": "Found in chest in Ruins of Unte",
         "spoiler": false,
         "image": "/file/Elden-Ring/giant_golden_arc_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 109
+        "id": 109,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -127,7 +153,8 @@
         "location_text": "Found in tunnel under Moorth Ruins",
         "spoiler": false,
         "image": "/file/Elden-Ring/golden_arcs_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 110
+        "id": 110,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -137,7 +164,8 @@
         "location_text": "Found at undeground golden tree north-northeast of Moorth Ruins",
         "spoiler": false,
         "image": "/file/Elden-Ring/heal_from_afar_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 111
+        "id": 111,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -147,7 +175,8 @@
         "location_text": "Found in the Scorpion River Catacombs",
         "spoiler": false,
         "image": "/file/Elden-Ring/knights_lightning_spear_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 112
+        "id": 112,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -157,7 +186,11 @@
         "location_text": "Reward from Remembrance of the Shadow Sunflower",
         "spoiler": true,
         "image": "/file/Elden-Ring/image11-shadow-of-the-erdtree-elden-ring-wiki-guide.jpg",
-        "id": 113
+        "id": 113,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Spells",
@@ -167,7 +200,11 @@
         "location_text": "Reward from Remembrance of a God and a Lord",
         "spoiler": true,
         "image": "/file/Elden-Ring/light_of_miquella_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 114
+        "id": 114,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Spells",
@@ -177,7 +214,11 @@
         "location_text": "Reward from Remembrance of the Lord of Frenzied Flame",
         "spoiler": true,
         "image": "/file/Elden-Ring/midras_flame_of_frenzy_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 115
+        "id": 115,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Spells",
@@ -187,7 +228,11 @@
         "location_text": "Reward from Remembrance of the Impaler",
         "spoiler": true,
         "image": "/file/Elden-Ring/messmers_orb_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 116
+        "id": 116,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Spells",
@@ -197,7 +242,8 @@
         "location_text": "Found in Shaman Village in Scaduview",
         "spoiler": false,
         "image": "/file/Elden-Ring/minor_erdtree_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 117
+        "id": 117,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -207,7 +253,8 @@
         "location_text": "Dropped by Misbegotten Crusader in Stone Coffin Fissure",
         "spoiler": false,
         "image": "/file/Elden-Ring/multilayered_ring_of_light_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 118
+        "id": 118,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -217,7 +264,8 @@
         "location_text": "Found up the elevator near Kindred of Rots in Ruins of Rauh",
         "spoiler": false,
         "image": "/file/Elden-Ring/pest-thread_spears_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide.png",
-        "id": 119
+        "id": 119,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -227,7 +275,8 @@
         "location_text": "Dropped by Fire Knight at the west exit of Shadow Keep",
         "spoiler": false,
         "image": "/file/Elden-Ring/rain_of_fire_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 120
+        "id": 120,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -237,7 +286,8 @@
         "location_text": "Dropped from Rugalea the Great Red Bear",
         "spoiler": false,
         "image": "/file/Elden-Ring/roar_of_rugalea_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 121
+        "id": 121,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -247,7 +297,11 @@
         "location_text": "Reward from Remembrance of the Saint of the Bud",
         "spoiler": true,
         "image": "/file/Elden-Ring/rotten_butterflies_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 122
+        "id": 122,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Spells",
@@ -257,7 +311,8 @@
         "location_text": "Found past the impenetrable thorns in Belurat",
         "spoiler": false,
         "image": "/file/Elden-Ring/spira_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 123
+        "id": 123,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -267,7 +322,8 @@
         "location_text": "Given by Hornsent Grandam after defeating Divine Beast Dancing Lion",
         "spoiler": false,
         "image": "/file/Elden-Ring/watchful_spirit_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 124
+        "id": 124,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -277,7 +333,8 @@
         "location_text": "Found up the elevator at Storehouse, Loft Site of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/wrath_from_afar_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 125
+        "id": 125,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -287,7 +344,11 @@
         "location_text": "Reward from Remembrance of the Wild Boar Rider",
         "spoiler": true,
         "image": "/file/Elden-Ring/blades_of_stone_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 126
+        "id": 126,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Spells",
@@ -297,7 +358,10 @@
         "location_text": "Found in graveyard west of Cathedral of Manus Metyr after completing Ymir's quest",
         "spoiler": false,
         "image": "/file/Elden-Ring/cherishing_fingers_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 127
+        "id": 127,
+        "tags": [
+            "quest"
+        ]
     },
     {
         "category": "Spells",
@@ -307,7 +371,10 @@
         "location_text": "Purchased from Ymir after sounding the second bell",
         "spoiler": false,
         "image": "/file/Elden-Ring/fleeting_microcosm_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 128
+        "id": 128,
+        "tags": [
+            "quest"
+        ]
     },
     {
         "category": "Spells",
@@ -317,7 +384,8 @@
         "location_text": "Found on a corpse in Castle Ensis",
         "spoiler": false,
         "image": "/file/Elden-Ring/glintblade_trio_2_sorcery_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 129
+        "id": 129,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -327,7 +395,10 @@
         "location_text": "Purchased from Ymir after sounding the first bell",
         "spoiler": false,
         "image": "/file/Elden-Ring/glintstone_nail_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 130
+        "id": 130,
+        "tags": [
+            "quest"
+        ]
     },
     {
         "category": "Spells",
@@ -337,7 +408,10 @@
         "location_text": "Purchased from Ymir after sounding the first bell",
         "spoiler": false,
         "image": "/file/Elden-Ring/glintstone_nails_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 131
+        "id": 131,
+        "tags": [
+            "quest"
+        ]
     },
     {
         "category": "Spells",
@@ -347,7 +421,8 @@
         "location_text": "Dropped by Fallingstar Beast",
         "spoiler": false,
         "image": "/file/Elden-Ring/gravitational_missile_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 132
+        "id": 132,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -357,7 +432,8 @@
         "location_text": "Drop down a ledge near Storehouse, Seventh Floor Site of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/impenetrable_thorns_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 133
+        "id": 133,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -367,7 +443,8 @@
         "location_text": "Dropped by Lesser Ulcerated Spirit in Shadow Keep",
         "spoiler": false,
         "image": "/file/Elden-Ring/mantle_of_thorns_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 134
+        "id": 134,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -377,7 +454,8 @@
         "location_text": "Found near Fissure Waypoint Site of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/mass_of_putrescence.png",
-        "id": 135
+        "id": 135,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -387,7 +465,10 @@
         "location_text": "Purchased from Count Ymir",
         "spoiler": false,
         "image": "/file/Elden-Ring/miriams_vanishing_sorcery_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 136
+        "id": 136,
+        "tags": [
+            "quest"
+        ]
     },
     {
         "category": "Spells",
@@ -397,7 +478,11 @@
         "location_text": "Reward from Remembrance of the Twin Moon Knight",
         "spoiler": true,
         "image": "/file/Elden-Ring/rellanas_twin_moons_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 137
+        "id": 137,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Spells",
@@ -407,7 +492,8 @@
         "location_text": "Looted from an altar in Charo's Hidden Grave",
         "spoiler": false,
         "image": "/file/Elden-Ring/rings_of_spectral_light_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 138
+        "id": 138,
+        "tags": []
     },
     {
         "category": "Spells",
@@ -417,6 +503,10 @@
         "location_text": "Reward from Remembrance of Putrescence",
         "spoiler": true,
         "image": "/file/Elden-Ring/vortex_of_putrescence_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide.png",
-        "id": 139
+        "id": 139,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     }
 ]

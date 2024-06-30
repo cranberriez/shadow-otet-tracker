@@ -7,7 +7,8 @@
         "location_text": "Reward from \"Domain of Dragon\" Painting Puzzle",
         "spoiler": false,
         "image": "/file/Elden-Ring/rock_heart_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 207
+        "id": 207,
+        "tags": []
     },
     {
         "category": "Tools",
@@ -17,7 +18,10 @@
         "location_text": "Found at the Grand Altar of Dragon Communion after defeating Bayle the Dread",
         "spoiler": true,
         "image": "/file/Elden-Ring/priestess_heart_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 208
+        "id": 208,
+        "tags": [
+            "spoiler"
+        ]
     },
     {
         "category": "Tools",
@@ -27,7 +31,8 @@
         "location_text": "Dropped by the Lamenter in Lamenter's Gaol",
         "spoiler": false,
         "image": "/file/Elden-Ring/lamenters_mask_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 209
+        "id": 209,
+        "tags": []
     },
     {
         "category": "Tools",
@@ -37,6 +42,7 @@
         "location_text": "Found in the Lamenter's Gaol",
         "spoiler": false,
         "image": "/file/Elden-Ring/prattling_pate_lamentation_tool_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 210
+        "id": 210,
+        "tags": []
     }
 ]

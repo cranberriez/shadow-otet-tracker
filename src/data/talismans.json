@@ -7,7 +7,8 @@
         "location_text": "Dropped by Winter Lanters in Abyssal Woods (Parry them)",
         "spoiler": false,
         "image": "/file/Elden-Ring/aged_ones_exultation_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 160
+        "id": 160,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -17,7 +18,8 @@
         "location_text": "Found on a corpse in the Abandoned Ailment Village",
         "spoiler": false,
         "image": "/file/Elden-Ring/ailment_talisman_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 161
+        "id": 161,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -27,7 +29,8 @@
         "location_text": "Found in a tower in Fog Rift Fort",
         "spoiler": false,
         "image": "/file/Elden-Ring/arrows_soaring_sting_talisman_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 162
+        "id": 162,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -37,7 +40,10 @@
         "location_text": "Given by Ymir during their quest",
         "spoiler": false,
         "image": "/file/Elden-Ring/beloved_stardust_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 163
+        "id": 163,
+        "tags": [
+            "quest"
+        ]
     },
     {
         "category": "Talismans",
@@ -47,7 +53,8 @@
         "location_text": "Found in the Scorched Ruins in Gravesite Plains",
         "spoiler": false,
         "image": "/file/Elden-Ring/blade_of_mercy_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 164
+        "id": 164,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -57,7 +64,8 @@
         "location_text": "Found in the Church of Benediction",
         "spoiler": false,
         "image": "/file/Elden-Ring/blessed_blue_dew_talisman_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 165
+        "id": 165,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -67,7 +75,8 @@
         "location_text": "Found near Storehouse, First Floor Site of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/boltdrake_talisman_talisman_elden_ring_wiki_guide_200px.png",
-        "id": 166
+        "id": 166,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -77,7 +86,8 @@
         "location_text": "Dropped by the Death Knight in Scorpion River Catacombs",
         "spoiler": false,
         "image": "/file/Elden-Ring/cerulean_amber_medallion_talisman_elden_ring_wiki_guide_200px.png",
-        "id": 167
+        "id": 167,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -87,7 +97,8 @@
         "location_text": "Recieved when sounding the bell in Finger Ruins of Dheo",
         "spoiler": false,
         "image": "/file/Elden-Ring/cerulean_seed_talisman_talisman_elden_ring_wiki_guide_200px.png",
-        "id": 168
+        "id": 168,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -97,7 +108,8 @@
         "location_text": "Found in Lamenter's Gaol",
         "spoiler": false,
         "image": "/file/Elden-Ring/clarifying_horn_charm_talisman_elden_ring_wiki_guide_200px.png",
-        "id": 169
+        "id": 169,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -107,7 +119,8 @@
         "location_text": "Dropped by the Death Knight in Fog Rift Catacombs",
         "spoiler": false,
         "image": "/file/Elden-Ring/crimson_amber_medallion_talisman_elden_ring_wiki_guide_200px.png",
-        "id": 170
+        "id": 170,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -117,7 +130,8 @@
         "location_text": "Recieved when sounding the bell in Finger Ruins of Rhia",
         "spoiler": false,
         "image": "/file/Elden-Ring/crimson_seed_talisman_talisman_elden_ring_wiki_guide_200px.png",
-        "id": 171
+        "id": 171,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -127,7 +141,8 @@
         "location_text": "Dropped by Fire Knight Queelign in Belurat",
         "spoiler": false,
         "image": "/file/Elden-Ring/crusade_insignia_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 172
+        "id": 172,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -137,7 +152,8 @@
         "location_text": "Found in Belurat",
         "spoiler": false,
         "image": "/file/Elden-Ring/dried_bouquet_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 173
+        "id": 173,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -147,7 +163,11 @@
         "location_text": "Reward from Remembrance of the Dancing Lion",
         "spoiler": true,
         "image": "/file/Elden-Ring/enraged_divine_beast_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 174
+        "id": 174,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Talismans",
@@ -157,7 +177,8 @@
         "location_text": "Found in northern Ruins of Rauh",
         "spoiler": false,
         "image": "/file/Elden-Ring/fine_crucible_feather_talisman_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 175
+        "id": 175,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -167,7 +188,8 @@
         "location_text": "Found in Fort of Reprimand",
         "spoiler": false,
         "image": "/file/Elden-Ring/flamedrake_talisman_talisman_elden_ring_wiki_guide_200px.png",
-        "id": 176
+        "id": 176,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -177,7 +199,8 @@
         "location_text": "Found in the Shaman Village",
         "spoiler": false,
         "image": "/file/Elden-Ring/golden_braid_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 177
+        "id": 177,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -187,7 +210,8 @@
         "location_text": "Drops from Lesser Ulcerated Tree Spirit in Belurat",
         "spoiler": false,
         "image": "/file/Elden-Ring/immunizing_horn_charm_talisman_elden_ring_wiki_guide_200px.png",
-        "id": 178
+        "id": 178,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -197,7 +221,11 @@
         "location_text": "Reward for aiding Leda to invade Hornsent (Missable)",
         "spoiler": false,
         "image": "/file/Elden-Ring/lacerating_crossed-tree_1_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 179
+        "id": 179,
+        "tags": [
+            "missable",
+            "quest"
+        ]
     },
     {
         "category": "Talismans",
@@ -207,7 +235,8 @@
         "location_text": "Found on the west island of Ruins of Rauh",
         "spoiler": false,
         "image": "/file/Elden-Ring/mottled_necklace_talisman_elden_ring_wiki_guide_200px.png",
-        "id": 180
+        "id": 180,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -217,7 +246,8 @@
         "location_text": "Found in Prospect Town",
         "spoiler": false,
         "image": "/file/Elden-Ring/outer_god_heirloom_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 181
+        "id": 181,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -227,7 +257,8 @@
         "location_text": "Fount southwest of Taylew's Ruined Forge Site of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/pearl_shield_talisman_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 182
+        "id": 182,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -237,7 +268,8 @@
         "location_text": "Found under statue in Specimen Storehouse",
         "spoiler": false,
         "image": "/file/Elden-Ring/pearldrake_talisman_talisman_elden_ring_wiki_guide_200px.png",
-        "id": 183
+        "id": 183,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -247,7 +279,8 @@
         "location_text": "Found in Castle Ensis",
         "spoiler": false,
         "image": "/file/Elden-Ring/rellanas_cameo_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 184
+        "id": 184,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -257,7 +290,11 @@
         "location_text": "Follow Leda's questline and invade Ansbach (Missable)",
         "spoiler": false,
         "image": "/file/Elden-Ring/retaliatory_crossed-tree_1_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 185
+        "id": 185,
+        "tags": [
+            "quest",
+            "missable"
+        ]
     },
     {
         "category": "Talismans",
@@ -267,7 +304,8 @@
         "location_text": "Found in Albinauric's Shack in Scaduview",
         "spoiler": false,
         "image": "/file/Elden-Ring/sharpshot_talisman_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 186
+        "id": 186,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -277,7 +315,8 @@
         "location_text": "Found in Moorth Ruins",
         "spoiler": false,
         "image": "/file/Elden-Ring/shattered_stone_talisman_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 187
+        "id": 187,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -287,7 +326,8 @@
         "location_text": "Found in Ruined Forge Starfall Past",
         "spoiler": false,
         "image": "/file/Elden-Ring/smithing_talisman_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 188
+        "id": 188,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -297,7 +337,8 @@
         "location_text": "Found underneath Castle front bridge of Castel Ensis",
         "spoiler": false,
         "image": "/file/Elden-Ring/spelldrake_talisman_talisman_elden_ring_wiki_guide_200px.png",
-        "id": 189
+        "id": 189,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -307,7 +348,11 @@
         "location_text": "Found during Thiollier's quest",
         "spoiler": true,
         "image": "/file/Elden-Ring/st._trinas_smile_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 190
+        "id": 190,
+        "tags": [
+            "spoiler",
+            "quest"
+        ]
     },
     {
         "category": "Talismans",
@@ -317,7 +362,8 @@
         "location_text": "Found in Bonny Gaol",
         "spoiler": false,
         "image": "/file/Elden-Ring/stalwart_horn_charm_talisman_elden_ring_wiki_guide_200px.png",
-        "id": 191
+        "id": 191,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -327,7 +373,8 @@
         "location_text": "Found in Ruins of Rauh",
         "spoiler": false,
         "image": "/file/Elden-Ring/talisman_of_all_crucibles_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 192
+        "id": 192,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -337,7 +384,8 @@
         "location_text": "Found by golden tree in Shadow Keep",
         "spoiler": false,
         "image": "/file/Elden-Ring/talisman_of_lords_bestowal_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 193
+        "id": 193,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -347,7 +395,8 @@
         "location_text": "Found in the Elder's Hovel",
         "spoiler": false,
         "image": "/file/Elden-Ring/talisman_of_the_dread_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 194
+        "id": 194,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -357,7 +406,8 @@
         "location_text": "Found in Temple Town Ruins",
         "spoiler": false,
         "image": "/file/Elden-Ring/two-handed_sword_talisman_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 195
+        "id": 195,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -367,7 +417,8 @@
         "location_text": "Found in cave near Rivermouth Cave",
         "spoiler": false,
         "image": "/file/Elden-Ring/two-headed_turtle_talisman_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 196
+        "id": 196,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -377,7 +428,8 @@
         "location_text": "Found in front of a statue in Ruins of Rauh",
         "spoiler": false,
         "image": "/file/Elden-Ring/verdigris_discus_talisman_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 197
+        "id": 197,
+        "tags": []
     },
     {
         "category": "Talismans",
@@ -387,6 +439,7 @@
         "location_text": "Found in Darklight Catacombs",
         "spoiler": false,
         "image": "/file/Elden-Ring/viridian_amber_medallion_talisman_elden_ring_wiki_guide_200px.png",
-        "id": 198
+        "id": 198,
+        "tags": []
     }
 ]

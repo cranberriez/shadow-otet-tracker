@@ -7,7 +7,8 @@
         "location_text": "Found near a waterfall in Ruins of Rauh",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_dryleaf_whirlwind_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 73
+        "id": 73,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -17,7 +18,8 @@
         "location_text": "Dropped by Black Knight Edredd",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_aspects_of_the_crucible_wings_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 74
+        "id": 74,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -27,7 +29,11 @@
         "location_text": "Reward from Remembrance of the Wild Boar Rider",
         "spoiler": true,
         "image": "/file/Elden-Ring/ash_of_war_spinning_gravity_thrust_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 75
+        "id": 75,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Ashes of War",
@@ -37,7 +43,8 @@
         "location_text": "Defeat Dryleaf Dane in Moorth Ruins",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_palm_blast_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 76
+        "id": 76,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -47,7 +54,8 @@
         "location_text": "Dropped by a scarab south of the Castle Ensis exit in Scadu Altus",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_piercing_throw_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 77
+        "id": 77,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -57,7 +65,8 @@
         "location_text": "Dropped by a scarab near Taylew's Ruined Forge",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_scattershot_throw_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 78
+        "id": 78,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -67,7 +76,8 @@
         "location_text": "Found near the west exit of Shadow Keep",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_wall_of_sparks_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 79
+        "id": 79,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -77,7 +87,8 @@
         "location_text": "Dropped by a flying scarab in the camp south of Shadow Keep",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_rolling_sparks_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 80
+        "id": 80,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -87,7 +98,8 @@
         "location_text": "Dropped by a scarab north of Bridge Leading to the Village Site of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_raging_beast_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 81
+        "id": 81,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -97,7 +109,8 @@
         "location_text": "Found north of the Three Path Cross Site of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_savage_claws_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 82
+        "id": 82,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -107,7 +120,8 @@
         "location_text": "Found on the Backhand Blades",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_blind_spot_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 83
+        "id": 83,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -117,7 +131,11 @@
         "location_text": "Reward for siding with Hornsent against Leda",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_swift_slash_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 84
+        "id": 84,
+        "tags": [
+            "quest",
+            "missable"
+        ]
     },
     {
         "category": "Ashes of War",
@@ -127,7 +145,8 @@
         "location_text": "Found on the Great Katana",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_overhead_stance_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 85
+        "id": 85,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -137,7 +156,8 @@
         "location_text": "Found in a tower in Castle Ensis",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_wing_stance_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 86
+        "id": 86,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -147,7 +167,8 @@
         "location_text": "Found in Fog Rift Catacombs",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_blinkbolt_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 87
+        "id": 87,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -157,7 +178,8 @@
         "location_text": "Dropped by Fire Knight Queelign after defeating him a second time",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_flame_skewer_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 88
+        "id": 88,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -167,7 +189,8 @@
         "location_text": "Found in a camp north of Three Path Cross Site of Grace",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_savage_lions_claw_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 89
+        "id": 89,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -177,7 +200,11 @@
         "location_text": "Reward from Remembrance of the Dancing Lion",
         "spoiler": true,
         "image": "/file/Elden-Ring/ash_of_war_divine_beast_frost_stomp_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 90
+        "id": 90,
+        "tags": [
+            "spoiler",
+            "boss"
+        ]
     },
     {
         "category": "Ashes of War",
@@ -187,7 +214,8 @@
         "location_text": "Dropped by Fire Knight outside Messmer's Boss Room",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_flame_spear_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 91
+        "id": 91,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -197,7 +225,8 @@
         "location_text": "Dropped by a scarab in a cave southwest of Cathedral of Manus Metyr",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_carian_sovereignty_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 92
+        "id": 92,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -207,7 +236,8 @@
         "location_text": "Found in the main plaza of Belurat",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_shriek_of_sorrow_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 93
+        "id": 93,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -217,7 +247,8 @@
         "location_text": "Dropped by Death Rite Bird",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_ghostflame_call_1_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 94
+        "id": 94,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -227,7 +258,8 @@
         "location_text": "Dropped by scarab north of Temple Town Ruins",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_the_poison_flower_blooms_twice_1_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 95
+        "id": 95,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -237,7 +269,8 @@
         "location_text": "Found on Igon's Greatbow",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_igons_drake_hunt_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 96
+        "id": 96,
+        "tags": []
     },
     {
         "category": "Ashes of War",
@@ -247,6 +280,7 @@
         "location_text": "Found on Dueling Shield and Carian Thrusting Shield",
         "spoiler": false,
         "image": "/file/Elden-Ring/ash_of_war_shield_strike_3_ashes_of_war_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-        "id": 97
+        "id": 97,
+        "tags": []
     }
 ]
