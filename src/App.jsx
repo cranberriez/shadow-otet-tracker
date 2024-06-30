@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import Filter from './components/Filter';
 import ItemList from './components/ItemList';
-import ItemCounter from './components/ItemCounter';
 import ScrollToTopButton from './components/ScrollToTopButton';
 import SearchBar from './components/SearchBar';
 import { useItems } from './hooks/useItems';
@@ -42,7 +41,7 @@ function App() {
   return (
     <div className="App">
       <div className="sidebar">
-        <Filter filters={filters} onFilterChange={handleFilterChange} />
+        <Filter filters={filters} onFilterChange={handleFilterChange} counts={counts} />
       </div>
       <div className="content">
         <div className="fixed-container">
@@ -52,11 +51,6 @@ function App() {
             onSearchChange={handleSearchChange} 
             onTagFilterChange={handleTagFilterChange} 
           />
-          <div className="counters">
-            {Object.keys(counts).map((category) => (
-              <ItemCounter key={category} category={category} count={counts[category]} />
-            ))}
-          </div>
         </div>
         {!isAnyCategorySelected && <p className="no-category-message">Select an Item Category on the Left</p>}
         {isAnyCategorySelected && (

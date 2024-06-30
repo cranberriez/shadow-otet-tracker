@@ -16,7 +16,7 @@ const categories = [
   'Revered Spirit Ashes'
 ];
 
-function Filter({ filters, onFilterChange }) {
+function Filter({ filters, onFilterChange, counts }) {
   const handleCategoryToggle = (category) => {
     const newSelectedCategories = { ...filters.selectedCategories };
     newSelectedCategories[category] = !newSelectedCategories[category];
@@ -52,7 +52,7 @@ function Filter({ filters, onFilterChange }) {
           className={`checkbox-container ${filters.selectedCategories[category] ? 'checked' : ''}`}
           onClick={() => handleCategoryToggle(category)}
         >
-          {category}
+          {category} {counts[category].acquired} / {counts[category].total}
         </div>
       ))}
       <div

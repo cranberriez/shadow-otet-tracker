@@ -33,11 +33,13 @@ function ItemRight({ item, checkedItems, onCheck }) {
 
                             <label htmlFor={`item-piece-${piece.id}`}>
 								{piece.piece_name}
+
+                                <div className="item-text">
+                                    {piece.location_text}
+                                </div>
 							</label>
                             
-							<div className="item-text">
-								{piece.location_text}
-							</div>
+							
 						</div>
 					))}
 				</div>

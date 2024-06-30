@@ -17,15 +17,16 @@
   
   .content {
     flex: 1;
-    padding: 20px;
-    margin-top: 90px; /* Ensure space for the fixed search bar and counters */
+    padding: 0 20px 20px;
+    margin-top: 60px; /* Ensure space for the fixed search bar and counters */
     overflow-y: auto;
+    position: relative;
   }
   
   .fixed-container {
     position: fixed;
     top: 0;
-    width: calc(100% - 340px); /* Adjust width considering the sidebar */
+    width: calc(100% - 348px); /* Adjust width considering the sidebar */
     background-color: #121212; /* Dark background to match content */
     padding: 10px 0;
     z-index: 1; /* Ensure fixed container is above the content */

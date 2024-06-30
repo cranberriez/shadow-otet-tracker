@@ -152,8 +152,8 @@
 
 .item-piece label {
 	flex: 1; /* Adjust size as needed */
-    min-width: 300px;
 	color: #e0e0e0;
+    padding: 5px 0;
 }
 
 .item-piece .item-link-icon {
