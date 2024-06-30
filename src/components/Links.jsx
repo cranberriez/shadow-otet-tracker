@@ -1,10 +1,11 @@
-import { FaGithub } from 'react-icons/fa'; // Import the GitHub icon
+import { FaGithub, FaBars, FaTimes } from 'react-icons/fa';
+import './links.css';
 
-function Links() {
+function Links({ isMobileSidebarOpen, toggleMobileSidebar }) {
     return (
         <div className="links">
-            <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer">
-                <FaGithub size={30} /> {/* Use the GitHub icon with a size of 30px */}
+            <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
+                <FaGithub />
             </a>
         </div>
     );

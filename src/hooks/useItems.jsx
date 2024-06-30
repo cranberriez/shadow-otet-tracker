@@ -57,7 +57,7 @@ export const useItems = (initialSelectedCategories) => {
     }, [checkedItems]);
 
     const handleScroll = () => {
-        if (window.scrollY > 300) {
+        if (window.scrollY > 5) {
             setShowScroll(true);
         } else {
             setShowScroll(false);

@@ -1,0 +1,16 @@
+/* Links.css */
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    color: #333;
+    font-size: 36px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #aaa;
+}

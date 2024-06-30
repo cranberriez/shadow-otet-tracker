@@ -55,9 +55,13 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: #8FBC8F;
     font-size: 18px;
     /* Adjusted font size for the larger checkbox */
+}
+
+.item input[type="checkbox"]:checked {
+    border: 1px solid #8FBC8F;
 }
 
 .item.checked {
@@ -162,13 +166,7 @@
 }
 
 .item-piece input[type="checkbox"]:checked::before {
-    content: "✔";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .item-piece label {
@@ -203,6 +201,7 @@
 .item-piece .item-text {
     flex: 4;
     font-size: 0.8em;
+    margin-top: 5px;
     margin-left: 5px;
     color: #e0e0e0;
 }
@@ -252,6 +251,7 @@
     .item-left,
     .item-right {
         width: 100%;
+        row-gap: 10px;
     }
 
     .item-right {
@@ -268,5 +268,13 @@
 
     .item-piece {
         min-width: 50%;
+    }
+}
+
+@media (max-width: 920px) {
+
+    .item-left,
+    .item-right {
+        flex-wrap: wrap;
     }
 }

@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import './App.css';
 import Filter from './components/Filter';
 import ItemList from './components/ItemList';
@@ -35,14 +36,23 @@ function App() {
         counts,
     } = useItems(initialSelectedCategories);
 
+    const [isMobileSidebarOpen, setMobileSidebarOpen] = useState(false);
+
+    const toggleMobileSidebar = () => {
+        setMobileSidebarOpen(!isMobileSidebarOpen);
+    };
+
     const isAnyCategorySelected = Object.values(filters.selectedCategories).some((selected) => selected);
 
     return (
-        <div className="App">
+        <div className={`App ${isMobileSidebarOpen ? 'sidebar-open' : ''}`}>
             <div className="sidebar">
                 <Filter filters={filters} onFilterChange={handleFilterChange} counts={counts} />
                 <Links />
             </div>
+            <button className="burger-menu" onClick={toggleMobileSidebar}>
+                {isMobileSidebarOpen ? '✖' : '☰'}
+            </button>
             <div className="content">
                 <div className="fixed-container">
                     <SearchBar

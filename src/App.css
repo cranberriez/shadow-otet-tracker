@@ -31,7 +31,7 @@
 .fixed-container {
     position: fixed;
     top: 0;
-    width: calc(100% - 348px);
+    width: calc(100% - 330px);
     /* Adjust width considering the sidebar */
     background-color: #121212;
     /* Dark background to match content */
@@ -77,16 +77,100 @@
     /* Show when the user scrolls down */
 }
 
-.links {
-    display: flex;
+.burger-menu {
+    display: none;
 }
 
-.links a {
-    color: #333;
-    text-decoration: none;
-    transition: 200ms;
+/* Mobile view */
+@media (max-width: 920px) {
+    .App {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        background-color: #1e1e1e;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .App.sidebar-open .sidebar {
+        transform: translateX(0);
+    }
+
+    .content {
+        padding: 10px;
+        margin-top: 0;
+    }
+
+    .burger-menu {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #333;
+        border: 2px solid white;
+        border-radius: 50px;
+        color: #fff;
+        font-size: 36px;
+        cursor: pointer;
+        z-index: 11;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fixed-container {
+        width: calc(100% - 16px);
+    }
 }
 
-.links a:hover {
-    color: #fff;
+@media (max-width: 500px) {
+    .fixed-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: calc(100% - 16px);
+    }
+
+    .counters {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .counter {
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+
+    .search-bar input {
+        margin-right: 0 !important;
+    }
+
+    .tag-buttons {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .tag-button {
+        flex: 1;
+        margin: 5px;
+    }
 }
