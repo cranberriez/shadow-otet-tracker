@@ -1,8 +1,22 @@
-# React + Vite
+# Jacob's Shadow of the Erd Tree Item Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This was made because I really didn't like the currently available ones. It's dumb that fextralife and the other wiki have ones that require you to pay, smh.
 
-Currently, two official plugins are available:
+## About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project is built using React and Vite. With a lot of data scraped from various sources including an excel doc provided by another reddit user.
+
+The images were scraped from the wiki and may break. The tagging system is mostly manual so there may be inconsistencies.
+
+## Building and Testing
+
+This project uses Node version `v20.9.0`
+
+Download the project and run the command `npm i` to install necessary packages.
+
+To build into a test environment run the command `npm run dev` to build and it will provide a URL to visit in the local browser.
+
+To build run `npm run build` which will create a local /dist folder with the built project.
+
+The two python files in the /data folder are for utility use cases and are being built alongwith the project just to handle all of the data files.
+Python is not required and those files shouldn't be touched but can act as guides for alterting aspects of the data files.
