@@ -16,6 +16,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .content {
@@ -76,27 +77,16 @@
     /* Show when the user scrolls down */
 }
 
-@media (max-width: 768px) {
-    .App {
-        flex-direction: column;
-    }
+.links {
+    display: flex;
+}
 
-    .sidebar {
-        width: 100%;
-        flex-direction: row;
-        overflow-x: auto;
-        background-color: #1e1e1e;
-        padding: 10px 0;
-    }
+.links a {
+    color: #333;
+    text-decoration: none;
+    transition: 200ms;
+}
 
-    .content {
-        padding: 10px;
-    }
-
-    .counters {
-        width: 100%;
-        /* Adjust width for mobile view */
-        top: 50px;
-        /* Adjust top position to not overlap with the sidebar */
-    }
+.links a:hover {
+    color: #fff;
 }

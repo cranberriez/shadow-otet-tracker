@@ -27,6 +27,8 @@
 
 .item-right {
     width: 40%;
+    display: flex;
+    flex-direction: column;
 }
 
 .item input[type="checkbox"] {
@@ -205,35 +207,6 @@
     color: #e0e0e0;
 }
 
-@media (max-width: 768px) {
-    .item {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .item-left,
-    .item-right,
-    .item-piece {
-        width: 100%;
-    }
-
-    .item-right {
-        margin-top: 10px;
-    }
-
-    .item-piece {
-        display: block;
-    }
-
-    .item input[type="checkbox"] {
-        margin-right: 35px;
-        margin-left: 15px;
-        transform: scale(2);
-        /* Makes the checkbox twice its current size */
-        cursor: pointer;
-    }
-}
-
 .tags {
     display: flex;
     position: absolute;
@@ -268,4 +241,32 @@
 .spoiler-tag {
     background-color: rgba(218, 165, 32, 0.7);
     /* Golden background with some transparency */
+}
+
+@media (max-width: 1280px) {
+    .item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .item-left,
+    .item-right {
+        width: 100%;
+    }
+
+    .item-right {
+        margin-top: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* Wrap items to the next line if needed */
+    }
+
+    .item-pieces {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .item-piece {
+        min-width: 50%;
+    }
 }

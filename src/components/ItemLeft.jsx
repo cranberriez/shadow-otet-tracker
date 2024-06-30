@@ -49,7 +49,7 @@ ItemLeft.propTypes = {
         name: PropTypes.string.isRequired,
         sub_category: PropTypes.string,
         image: PropTypes.string,
-        url: PropTypes.string.isRequired,
+        url: PropTypes.string,
         location_text: PropTypes.string.isRequired,
     }).isRequired,
     checkedItems: PropTypes.object.isRequired,

@@ -32,7 +32,7 @@ function SearchBar({ filters, onSearchChange, onTagFilterChange }) {
 
 SearchBar.propTypes = {
     filters: PropTypes.shape({
-        searchQuery: PropTypes.string.isRequired,
+        searchQuery: PropTypes.string,
         selectedTags: PropTypes.array.isRequired,
     }).isRequired,
     onSearchChange: PropTypes.func.isRequired,

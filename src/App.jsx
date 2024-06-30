@@ -3,6 +3,7 @@ import Filter from './components/Filter';
 import ItemList from './components/ItemList';
 import ScrollToTopButton from './components/ScrollToTopButton';
 import SearchBar from './components/SearchBar';
+import Links from './components/Links';
 import { useItems } from './hooks/useItems';
 
 const initialSelectedCategories = {
@@ -40,6 +41,7 @@ function App() {
         <div className="App">
             <div className="sidebar">
                 <Filter filters={filters} onFilterChange={handleFilterChange} counts={counts} />
+                <Links />
             </div>
             <div className="content">
                 <div className="fixed-container">

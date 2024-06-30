@@ -4,7 +4,7 @@ import ItemRight from './ItemRight';
 import './item.css';
 
 function Item({ item, checkedItems, onCheck }) {
-    const isChecked = checkedItems[item.id] || (item.pieces && item.pieces.some(piece => checkedItems[piece.id]));
+    const isChecked = checkedItems[item.id] || (item.pieces.length && item.pieces.every(piece => checkedItems[piece.id]));
     const itemClass = `item ${isChecked ? 'checked' : ''} ${item.tags.includes('boss') ? 'boss' : ''} ${item.tags.includes('quest') ? 'quest' : ''} ${item.tags.includes('missable') ? 'missable' : ''} ${item.tags.includes('spoiler') ? 'spoiler' : ''}`;
 
     return (
