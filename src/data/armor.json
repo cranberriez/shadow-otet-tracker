@@ -1007,7 +1007,7 @@
         "category": "Armor",
         "name": "Highland Warrior Set",
         "url": "https://eldenring.wiki.fextralife.com/Highland+Warrior+Set",
-        "location_text": "Northwest of Ravine North Site of Grace in the forest",
+        "location_text": "Northwest of Ravine North Site of Grace in the forest. Gloried Attire shown.",
         "spoiler": false,
         "pieces": [
             {
@@ -1021,11 +1021,20 @@
             },
             {
                 "piece_name": "Gloried Attire",
-                "location_text": "",
+                "location_text": "To the northwest of the Ravine North Site of Grace, there is a forest inhabited by runebears. At the center of this forest, you'll find a large stone with several items on it, this whole armor set is slightly south-west of the large stone, on a corpse by a ledge.",
                 "spoiler": false,
                 "url": "https://eldenring.wiki.fextralife.com/Gloried+Attire",
                 "image": "/file/Elden-Ring/gloried_attire_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
                 "id": 46.2,
+                "tags": []
+            },
+            {
+                "piece_name": "Highland Attire",
+                "location_text": "",
+                "spoiler": false,
+                "url": "https://eldenring.wiki.fextralife.com/Highland+Attire",
+                "image": "/file/Elden-Ring/highland_attire_chest_armor_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+                "id": 46.3,
                 "tags": []
             },
             {
@@ -1034,7 +1043,7 @@
                 "spoiler": false,
                 "url": "https://eldenring.wiki.fextralife.com/Leather+Arm+Wraps",
                 "image": "/file/Elden-Ring/leather_arm_wraps_gauntlets_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-                "id": 46.3,
+                "id": 46.4,
                 "tags": []
             },
             {
@@ -1043,7 +1052,7 @@
                 "spoiler": false,
                 "url": "https://eldenring.wiki.fextralife.com/Leather+Leg+Wraps",
                 "image": "/file/Elden-Ring/leather_leg_wraps_legs_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
-                "id": 46.4,
+                "id": 46.5,
                 "tags": []
             }
         ],
