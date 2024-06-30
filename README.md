@@ -1,4 +1,4 @@
-# Jacob's Shadow of the Erd Tree Item Tracker
+# Jacob's Shadow of the Erdtree Item Tracker
 
 This was made because I really didn't like the currently available ones. It's dumb that fextralife and the other wiki have ones that require you to pay, smh.
 
@@ -20,3 +20,9 @@ To build run `npm run build` which will create a local /dist folder with the bui
 
 The two python files in the /data folder are for utility use cases and are being built alongwith the project just to handle all of the data files.
 Python is not required and those files shouldn't be touched but can act as guides for alterting aspects of the data files.
+
+## Publishing to GH-PAGES for yourself.
+
+Run `npm i gh-pages --save-dev` to install the needed gh-pages dev package.
+Modify the `vite.config.js` file's base to be your repository name preceded by a '/'.
+Run `npm run deploy` to build and deploy to the gh-pages branch of your respository.
