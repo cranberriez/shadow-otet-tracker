@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Item from './Item';
 
 function ItemList({ items, checkedItems, onCheck }) {
@@ -14,5 +15,11 @@ function ItemList({ items, checkedItems, onCheck }) {
         </div>
     );
 }
+
+ItemList.propTypes = {
+    items: PropTypes.array.isRequired,
+    checkedItems: PropTypes.object.isRequired,
+    onCheck: PropTypes.func.isRequired,
+};
 
 export default ItemList;

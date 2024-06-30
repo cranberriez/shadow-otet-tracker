@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import './searchbar.css';
 
 const tags = ['missable', 'quest', 'spoiler'];
@@ -28,5 +29,14 @@ function SearchBar({ filters, onSearchChange, onTagFilterChange }) {
         </div>
     );
 }
+
+SearchBar.propTypes = {
+    filters: PropTypes.shape({
+        searchQuery: PropTypes.string.isRequired,
+        selectedTags: PropTypes.array.isRequired,
+    }).isRequired,
+    onSearchChange: PropTypes.func.isRequired,
+    onTagFilterChange: PropTypes.func.isRequired,
+};
 
 export default SearchBar;

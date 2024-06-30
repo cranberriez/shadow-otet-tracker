@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 
 function ItemRight({ item, checkedItems, onCheck }) {
@@ -46,5 +47,21 @@ function ItemRight({ item, checkedItems, onCheck }) {
         </div>
     );
 }
+
+ItemRight.propTypes = {
+    item: PropTypes.shape({
+        pieces: PropTypes.arrayOf(
+            PropTypes.shape({
+                id: PropTypes.number.isRequired,
+                piece_name: PropTypes.string.isRequired,
+                image: PropTypes.string.isRequired,
+                url: PropTypes.string.isRequired,
+                location_text: PropTypes.string.isRequired,
+            })
+        )
+    }).isRequired,
+    checkedItems: PropTypes.object.isRequired,
+    onCheck: PropTypes.func.isRequired,
+};
 
 export default ItemRight;

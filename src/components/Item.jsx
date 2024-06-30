@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import ItemLeft from './ItemLeft';
 import ItemRight from './ItemRight';
 import './item.css';
@@ -19,5 +20,16 @@ function Item({ item, checkedItems, onCheck }) {
         </div>
     );
 }
+
+Item.propTypes = {
+    item: PropTypes.shape({
+        id: PropTypes.number.isRequired,
+        pieces: PropTypes.array,
+        tags: PropTypes.array.isRequired,
+        name: PropTypes.string.isRequired,
+    }).isRequired,
+    checkedItems: PropTypes.object.isRequired,
+    onCheck: PropTypes.func.isRequired,
+};
 
 export default Item;

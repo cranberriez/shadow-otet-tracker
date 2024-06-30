@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import './filter.css';
 
 const categories = [
@@ -72,5 +73,15 @@ function Filter({ filters, onFilterChange, counts }) {
         </div>
     );
 }
+
+Filter.propTypes = {
+    filters: PropTypes.shape({
+        selectedCategories: PropTypes.object.isRequired,
+        showChecked: PropTypes.bool.isRequired,
+        showSpoilers: PropTypes.bool.isRequired,
+    }).isRequired,
+    onFilterChange: PropTypes.func.isRequired,
+    counts: PropTypes.object.isRequired,
+};
 
 export default Filter;
