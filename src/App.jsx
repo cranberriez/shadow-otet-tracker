@@ -45,6 +45,7 @@ function App() {
 
     return (
         <div className={`App ${isMobileSidebarOpen ? 'sidebar-open' : ''}`}>
+            <h1 style={{ position: 'absolute', left: '-9999px' }}>Shadow of the Erdtree Item Tracker</h1>
             <div className="sidebar">
                 <Filter filters={filters} onFilterChange={handleFilterChange} counts={counts} />
                 <Links />
