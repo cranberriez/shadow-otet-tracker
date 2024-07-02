@@ -282,4 +282,8 @@
     .item-right {
         flex-wrap: wrap;
     }
+
+    .item {
+        padding-top: 30px;
+    }
 }
