@@ -64,7 +64,7 @@ export const useItems = (initialSelectedCategories) => {
             }
 
             // If the item is a piece, check if all pieces are now checked and mark the set as checked
-            if (!item || (item && item.pieces.length === 0)) {
+            if (!item || (item && (!item.pieces || item.pieces.length === 0))) {
                 const setItemId = Math.floor(id);
                 const setItem = items.find(item => item.id === setItemId);
                 if (setItem && setItem.pieces) {
@@ -73,7 +73,7 @@ export const useItems = (initialSelectedCategories) => {
                     );
                     newCheckedItems[setItemId] = allPiecesChecked;
                 }
-            } else {
+            } else if (item && item.pieces) {
                 // If the item is a set, uncheck the set if any piece is unchecked
                 const setItemId = item.id;
                 const allPiecesChecked = item.pieces.every(piece => newCheckedItems[piece.id]);
@@ -83,6 +83,7 @@ export const useItems = (initialSelectedCategories) => {
             return newCheckedItems;
         });
     };
+
 
     const handleFilterChange = (newFilters) => {
         setFilters(newFilters);
