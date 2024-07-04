@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { matchesSearchQuery } from '../utils/search';
 import weaponsData from '../data/weapons.json';
 import spellsData from '../data/spells.json';
 import ashesOfWarData from '../data/ashes_of_war.json';
@@ -114,23 +115,23 @@ export const useItems = (initialSelectedCategories) => {
             const isCategorySelected = selectedCategories[item.category];
             const isSpoiler = item.tags.includes('spoiler');
             const hasTags = selectedTags.every(tag => item.tags.includes(tag));
-            const matchesSearchQuery = item.name.toLowerCase().includes(searchQuery.toLowerCase());
+            const matchesSearch = matchesSearchQuery(item, searchQuery);
 
-            if (!isCategorySelected) {
+            if (!isCategorySelected)
                 return false;
-            }
-            if (!showChecked && checkedItems[item.id]) {
+
+            if (!showChecked && checkedItems[item.id])
                 return false;
-            }
-            if (!showSpoilers && isSpoiler) {
+
+            if (!showSpoilers && isSpoiler)
                 return false;
-            }
-            if (selectedTags.length > 0 && !hasTags) {
+
+            if (selectedTags.length > 0 && !hasTags)
                 return false;
-            }
-            if (!matchesSearchQuery) {
+
+            if (!matchesSearch)
                 return false;
-            }
+
             return true;
         })
         .sort((a, b) => extractNumber(a.url) - extractNumber(b.url));

@@ -21,6 +21,7 @@ function Item({ item, checkedItems, onCheck }) {
             <div className="tags">
                 {item.tags
                     .filter(tag => tagLabels[tag])
+                    .sort()
                     .map(tag => (
                         <span key={tag} className={`tag ${tag}-tag`}>{tagLabels[tag]}</span>
                     ))}

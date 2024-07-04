@@ -1,12 +1,13 @@
 import PropTypes from 'prop-types';
+import { debounce } from '../utils/debounce';
 import './searchbar.css';
 
 const tags = ['missable', 'quest', 'spoiler'];
 
 function SearchBar({ filters, onSearchChange, onTagFilterChange }) {
-    const handleInputChange = (e) => {
+    const handleInputChange = debounce((e) => {
         onSearchChange(e.target.value);
-    };
+    }, 100); // Adjust the debounce delay as needed
 
     return (
         <div className="search-bar">
