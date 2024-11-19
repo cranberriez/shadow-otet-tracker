@@ -8,7 +8,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/viridian_hidden_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 199,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Tears",
@@ -19,7 +21,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/crimsonburst_dried_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 200,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Tears",
@@ -30,7 +34,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/crimson-sapping_cracked_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 201,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Tears",
@@ -41,7 +47,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/cerulean-sapping_cracked_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 202,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Tears",
@@ -52,7 +60,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/oil-soaked_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 203,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Tears",
@@ -63,7 +73,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/bloodsucking_cracked_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 204,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Tears",
@@ -74,7 +86,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/glovewort_crystal_tear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 205,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Tears",
@@ -85,6 +99,8 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/deflecting_hardtear_crystal_tear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 206,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     }
 ]

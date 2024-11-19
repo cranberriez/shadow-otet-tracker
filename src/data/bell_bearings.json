@@ -10,7 +10,9 @@
         "id": 358.0,
         "tags": [
             "quest"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Bell Bearings",
@@ -25,7 +27,9 @@
             "spoiler",
             "boss",
             "quest"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Bell Bearings",
@@ -39,7 +43,9 @@
         "tags": [
             "quest",
             "boss"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Bell Bearings",
@@ -50,7 +56,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/kales_bell_bearing-elden-ring-wiki-guide-200.png",
         "id": 361.0,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Bell Bearings",
@@ -61,7 +69,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/kales_bell_bearing-elden-ring-wiki-guide-200.png",
         "id": 362.0,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Bell Bearings",
@@ -72,7 +82,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/kales_bell_bearing-elden-ring-wiki-guide-200.png",
         "id": 363.0,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Bell Bearings",
@@ -83,7 +95,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/kales_bell_bearing-elden-ring-wiki-guide-200.png",
         "id": 364.0,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Bell Bearings",
@@ -94,7 +108,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/kales_bell_bearing-elden-ring-wiki-guide-200.png",
         "id": 365.0,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Bell Bearings",
@@ -105,7 +121,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/kales_bell_bearing-elden-ring-wiki-guide-200.png",
         "id": 366.0,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Bell Bearings",
@@ -116,6 +134,8 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/kales_bell_bearing-elden-ring-wiki-guide-200.png",
         "id": 367.0,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     }
 ]

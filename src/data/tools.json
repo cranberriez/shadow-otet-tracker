@@ -8,7 +8,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/rock_heart_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 207,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Tools",
@@ -21,7 +23,9 @@
         "id": 208,
         "tags": [
             "spoiler"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Tools",
@@ -32,7 +36,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/lamenters_mask_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 209,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Tools",
@@ -43,6 +49,8 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/prattling_pate_lamentation_tool_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 210,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     }
 ]

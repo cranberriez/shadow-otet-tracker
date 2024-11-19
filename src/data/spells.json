@@ -8,7 +8,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/aspects_of_the_crucible_bloom_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 98,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -21,7 +23,9 @@
         "id": 99,
         "tags": [
             "boss"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -34,7 +38,9 @@
         "id": 100,
         "tags": [
             "boss"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -47,7 +53,9 @@
         "id": 101,
         "tags": [
             "boss"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -60,7 +68,9 @@
         "id": 102,
         "tags": [
             "boss"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -71,7 +81,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/divine_bird_feathers_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 103,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -86,7 +98,9 @@
             "spoiler",
             "quest",
             "missable"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -97,7 +111,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/electrocharge_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 105,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -108,7 +124,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/fire_serpent_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 106,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -121,7 +139,9 @@
         "id": 107,
         "tags": [
             "quest"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -132,7 +152,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/ghostflame_breath_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 108,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -143,7 +165,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/giant_golden_arc_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 109,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -154,7 +178,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/golden_arcs_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 110,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -165,7 +191,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/heal_from_afar_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 111,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -176,7 +204,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/knights_lightning_spear_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 112,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -190,7 +220,9 @@
         "tags": [
             "spoiler",
             "boss"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -204,7 +236,9 @@
         "tags": [
             "spoiler",
             "boss"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -218,7 +252,9 @@
         "tags": [
             "spoiler",
             "boss"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -232,7 +268,9 @@
         "tags": [
             "spoiler",
             "boss"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -243,7 +281,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/minor_erdtree_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 117,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -254,7 +294,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/multilayered_ring_of_light_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 118,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -265,7 +307,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/pest-thread_spears_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide.png",
         "id": 119,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -276,7 +320,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/rain_of_fire_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 120,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -287,7 +333,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/roar_of_rugalea_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 121,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -301,7 +349,9 @@
         "tags": [
             "spoiler",
             "boss"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -312,7 +362,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/spira_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 123,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -323,7 +375,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/watchful_spirit_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 124,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -334,7 +388,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/wrath_from_afar_incantation_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 125,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -348,7 +404,9 @@
         "tags": [
             "spoiler",
             "boss"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -361,7 +419,9 @@
         "id": 127,
         "tags": [
             "quest"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -374,7 +434,9 @@
         "id": 128,
         "tags": [
             "quest"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -385,7 +447,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/glintblade_trio_2_sorcery_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 129,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -398,7 +462,9 @@
         "id": 130,
         "tags": [
             "quest"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -411,7 +477,9 @@
         "id": 131,
         "tags": [
             "quest"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -422,7 +490,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/gravitational_missile_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 132,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -433,7 +503,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/impenetrable_thorns_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 133,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -444,7 +516,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/mantle_of_thorns_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 134,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -455,7 +529,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/mass_of_putrescence.png",
         "id": 135,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -468,7 +544,9 @@
         "id": 136,
         "tags": [
             "quest"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -482,7 +560,9 @@
         "tags": [
             "spoiler",
             "boss"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -493,7 +573,9 @@
         "spoiler": false,
         "image": "/file/Elden-Ring/rings_of_spectral_light_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
         "id": 138,
-        "tags": []
+        "tags": [],
+        "detailed_location_text": null,
+        "map_url": null
     },
     {
         "category": "Spells",
@@ -507,6 +589,8 @@
         "tags": [
             "spoiler",
             "boss"
-        ]
+        ],
+        "detailed_location_text": null,
+        "map_url": null
     }
 ]
